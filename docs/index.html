@@ -230,6 +230,9 @@
     unreadOnly: loadBool(UNREAD_ONLY_KEY, false),
   };
 
+  var articleElements = new Map();
+  var scrollObserver = null;
+
   var els = {
     meta: document.getElementById("meta"),
     feedIssues: document.getElementById("feedIssues"),
@@ -356,9 +359,61 @@
     var articles = getVisibleArticles();
     els.articleList.innerHTML = "";
     els.empty.hidden = articles.length !== 0;
+    articleElements.clear();
 
     articles.forEach(function (article) {
-      els.articleList.appendChild(renderArticle(article));
+      var card = renderArticle(article);
+      articleElements.set(article.id, card);
+      els.articleList.appendChild(card);
+    });
+
+    setupScrollObserver();
+  }
+
+  // Marks an article read once the user has scrolled it off the top of the
+  // viewport, without a full re-render — removing/hiding it mid-scroll (e.g.
+  // under the unread-only filter) would shift the page under the user.
+  function setupScrollObserver() {
+    if (scrollObserver) {
+      scrollObserver.disconnect();
+    }
+    if (!("IntersectionObserver" in window)) return;
+
+    scrollObserver = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) return;
+          if (entry.boundingClientRect.top >= 0) return; // still below the fold, not yet seen
+          var id = entry.target.dataset.id;
+          if (id) markReadInPlace(id);
+        });
+      },
+      { threshold: 0 }
+    );
+
+    articleElements.forEach(function (el) {
+      scrollObserver.observe(el);
+    });
+  }
+
+  function markReadInPlace(id) {
+    if (state.readIds.has(id)) return;
+    state.readIds.add(id);
+    saveReadIds();
+
+    var el = articleElements.get(id);
+    if (el) {
+      el.classList.add("is-read");
+      var btn = el.querySelector(".article-actions button");
+      if (btn) btn.textContent = "未読に戻す";
+    }
+    updateTabCounts();
+  }
+
+  function updateTabCounts() {
+    els.tabs.querySelectorAll(".tab").forEach(function (btn) {
+      var countSpan = btn.querySelector(".count");
+      if (countSpan) countSpan.textContent = "(" + countUnread(btn.dataset.category) + ")";
     });
   }
 
@@ -367,6 +422,7 @@
 
     var card = document.createElement("article");
     card.className = "article" + (isRead ? " is-read" : "");
+    card.dataset.id = article.id;
 
     var top = document.createElement("div");
     top.className = "article-top";
