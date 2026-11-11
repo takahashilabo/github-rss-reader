@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T05:05:09.847Z",
+  "updatedAt": "2026-11-11T05:29:18.026Z",
   "categories": [
     "AI",
     "ITニュース",
@@ -278,8 +278,9 @@
       "category": "大学・学会・研究",
       "xmlUrl": "https://cacm.acm.org/section/blogcacm/feed/",
       "htmlUrl": "https://cacm.acm.org/blogs/blog-cacm.rss",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "itemCount": 0,
+      "error": "HTTP 403 Forbidden"
     },
     {
       "title": "Computing Education Blog",
@@ -315,6 +316,56 @@
     }
   ],
   "articles": [
+    {
+      "id": "d5439a295d74cc90ccfb6d15c408af60abe04448",
+      "title": "AGIBOT「G2 Max」の紹介動画を公開、両腕40kgの可搬重量と全方向移動で工場・倉庫の作業を支援",
+      "link": "https://robotstart.info/article/2026/11/11/382619.html",
+      "pubDate": "2026-11-11T05:25:02.000Z",
+      "category": "ITニュース",
+      "feedTitle": "robotstart.info",
+      "feedUrl": "https://robotstart.info/",
+      "contentSnippet": "AGIBOTは2026年11月11日、産業現場向けのロボット「G2 Max」の紹介動画を公式YouTubeやSNSで公開した。"
+    },
+    {
+      "id": "af5da46204764b180527ebd7ec8daf94198d4011",
+      "title": "テストが大学生に与えたストレスが「下水の化学的痕跡」から明らかに、抗うつ薬の使用も増加した可能性",
+      "link": "https://gigazine.net/news/20261111-sewage-chemical-signature-university-exams/",
+      "pubDate": "2026-11-11T05:25:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "続きを読む..."
+    },
+    {
+      "id": "5eb8773ebca8c181207f165bf91f4b6a22363c84",
+      "title": "「Mリーグ」岡田紗佳が12戦8トップの絶好調　1着率66.7％で全選手トップに",
+      "link": "https://kai-you.net/article/97118",
+      "pubDate": "2026-11-11T05:18:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "KAI-YOU.net",
+      "feedUrl": "https://kai-you.net/",
+      "contentSnippet": "プロ麻雀リーグ「Mリーグ」で、KADOKAWAサクラナイツに所属する岡田紗佳選手が絶好調だ。11月10日に行われた「大和証券 Mリーグ2026-27」第1試合に出場した岡田紗佳選手は、6万2800点の1着。今シーズン12試合目の登板で、実に8回目となるトップを獲得した。これで1着率は66.7％。今シーズン出場する全40選手の中でトップとなっている。1着の回数でもTEAM RAIDEN／雷電の瀬戸熊直樹選手と並ぶ8回で最多。瀬戸熊直樹選手が13試合で8回なのに対し、岡田紗佳さんは12試合で到達して..."
+    },
+    {
+      "id": "cfde2a6bff7a1dd6fc0a34d27fa4b37a4a23c0ff",
+      "title": "NVIDIAが仮想的な日本人900万人分の家計や財務状況を含めたペルソナをまとめたデータセットを公開",
+      "link": "https://gigazine.net/news/20261111-nemotron-personas-finance-japan/",
+      "pubDate": "2026-11-11T05:15:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "Nemotron Personas Japan」に日本の公的統計と家計の財務状況および金融リテラシーに関するデータを組み合わせた金融ドメイン拡張版となっており、実データ利用のプライバシーリスクを回避しつつ、より多様で現実的な金融シナリオを再現することで、金融領域でのエージェントAI開発に役立つことが期待されています。 続きを読む..."
+    },
+    {
+      "id": "41f72213125edca6da0dc736a3724dc22bd203a9",
+      "title": "日本アニメ創成期を描く小説『サクラ咲くがごとし』刊行　ジブリ鈴木敏夫の勧めで出版",
+      "link": "https://kai-you.net/article/97115",
+      "pubDate": "2026-11-11T05:10:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "KAI-YOU.net",
+      "feedUrl": "https://kai-you.net/",
+      "contentSnippet": "アニメCM制作会社のトラッシュスタジオが、小説『サクラ咲くがごとし アニメーターたちの創世記』の刊行を発表した。著者は同社代表でアニメCMプロデューサーの釘宮陽一郎さん。日本のアニメーション誕生110周年にあたる2027年1月29日（金）に、文藝春秋企画出版部からの自費出版として発売される。価格は1870円（税込）。もともとはアニメーション作品として構想されていたが、スタジオジブリの鈴木敏夫さんから勧められ小説化。鈴木敏夫さんは帯文も寄せている。表紙イラストは、アニメ映画『となりのトトロ』の作画..."
+    },
     {
       "id": "e158a126b39b94b1fefc134d659884970ebf63bb",
       "title": "AMDがZen 6を採用した第6世代EPYCの出荷開始を発表",
