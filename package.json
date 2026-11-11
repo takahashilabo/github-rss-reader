@@ -1,0 +1,14 @@
+{
+  "name": "github-rss-reader",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Serverless RSS reader built on GitHub Actions + GitHub Pages",
+  "type": "commonjs",
+  "scripts": {
+    "fetch": "node src/fetch.js"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0",
+    "xml2js": "^0.6.2"
+  }
+}

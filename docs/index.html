@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>RSS Reader</title>
+<style>
+  :root {
+    --bg: #f5f6f8;
+    --surface: #ffffff;
+    --text: #1b1f23;
+    --text-dim: #6a7280;
+    --border: #e2e5ea;
+    --accent: #2563eb;
+    --accent-bg: #eaf0ff;
+    --read-bg: #fafafa;
+    --read-text: #9aa1ab;
+    --danger: #c0392b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #15181c;
+      --surface: #1f2328;
+      --text: #e6e8eb;
+      --text-dim: #9aa1ab;
+      --border: #2d3238;
+      --accent: #5b8df6;
+      --accent-bg: #223052;
+      --read-bg: #1a1d21;
+      --read-text: #6a7280;
+      --danger: #e57368;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  header {
+    padding: 16px 16px 8px;
+    max-width: 760px;
+    margin: 0 auto;
+  }
+  header h1 {
+    font-size: 18px;
+    margin: 0 0 4px;
+  }
+  #meta {
+    color: var(--text-dim);
+    font-size: 12px;
+  }
+  #feedIssues {
+    margin-top: 6px;
+    font-size: 12px;
+  }
+  #feedIssues summary {
+    color: var(--danger);
+    cursor: pointer;
+  }
+  #feedIssues ul {
+    margin: 6px 0 0;
+    padding-left: 18px;
+    color: var(--text-dim);
+  }
+  nav#tabs {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 4px 16px;
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .tab {
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    border-radius: 999px;
+    padding: 6px 12px;
+    font-size: 13px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .tab.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  .tab .count {
+    opacity: 0.7;
+    margin-left: 4px;
+  }
+  #toolbar {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    font-size: 13px;
+    color: var(--text-dim);
+  }
+  #toolbar label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+  }
+  #toolbar button {
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 16px 48px;
+  }
+  .article {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+  }
+  .article.is-read {
+    background: var(--read-bg);
+  }
+  .article.is-read .title-link {
+    color: var(--read-text);
+  }
+  .article-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--text-dim);
+    margin-bottom: 4px;
+  }
+  .badge {
+    background: var(--accent-bg);
+    color: var(--accent);
+    border-radius: 999px;
+    padding: 1px 8px;
+    font-size: 11px;
+  }
+  .title-link {
+    color: var(--text);
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 4px;
+  }
+  .title-link:hover {
+    text-decoration: underline;
+  }
+  .snippet {
+    color: var(--text-dim);
+    font-size: 13px;
+    margin: 0 0 8px;
+  }
+  .article-actions {
+    display: flex;
+    gap: 8px;
+  }
+  .article-actions button {
+    border: none;
+    background: none;
+    color: var(--accent);
+    font-size: 12px;
+    cursor: pointer;
+    padding: 0;
+  }
+  #empty, #loading, #errorBox {
+    color: var(--text-dim);
+    padding: 40px 0;
+    text-align: center;
+  }
+  #errorBox {
+    color: var(--danger);
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>RSS Reader</h1>
+  <div id="meta">読み込み中...</div>
+  <details id="feedIssues" hidden>
+    <summary>取得に失敗したフィードがあります</summary>
+    <ul id="feedIssuesList"></ul>
+  </details>
+</header>
+
+<nav id="tabs"></nav>
+
+<div id="toolbar">
+  <label><input type="checkbox" id="unreadOnly" /> 未読のみ表示</label>
+  <button id="markAllRead" type="button">このカテゴリを全て既読にする</button>
+</div>
+
+<main>
+  <div id="loading">記事を読み込んでいます...</div>
+  <div id="errorBox" hidden></div>
+  <div id="empty" hidden>表示できる記事がありません。</div>
+  <div id="articleList"></div>
+</main>
+
+<script>
+(function () {
+  "use strict";
+
+  var DATA_URL = "./data/articles.json";
+  var READ_IDS_KEY = "ghRssReader.readIds";
+  var ACTIVE_CATEGORY_KEY = "ghRssReader.activeCategory";
+  var UNREAD_ONLY_KEY = "ghRssReader.unreadOnly";
+  var ALL_CATEGORY = "__all__";
+
+  var state = {
+    data: null,
+    readIds: loadReadIds(),
+    activeCategory: loadString(ACTIVE_CATEGORY_KEY, ALL_CATEGORY),
+    unreadOnly: loadBool(UNREAD_ONLY_KEY, false),
+  };
+
+  var els = {
+    meta: document.getElementById("meta"),
+    feedIssues: document.getElementById("feedIssues"),
+    feedIssuesList: document.getElementById("feedIssuesList"),
+    tabs: document.getElementById("tabs"),
+    unreadOnly: document.getElementById("unreadOnly"),
+    markAllRead: document.getElementById("markAllRead"),
+    loading: document.getElementById("loading"),
+    errorBox: document.getElementById("errorBox"),
+    empty: document.getElementById("empty"),
+    articleList: document.getElementById("articleList"),
+  };
+
+  els.unreadOnly.checked = state.unreadOnly;
+  els.unreadOnly.addEventListener("change", function () {
+    state.unreadOnly = els.unreadOnly.checked;
+    saveBool(UNREAD_ONLY_KEY, state.unreadOnly);
+    render();
+  });
+
+  els.markAllRead.addEventListener("click", function () {
+    getVisibleArticles().forEach(function (article) {
+      state.readIds.add(article.id);
+    });
+    saveReadIds();
+    render();
+  });
+
+  fetch(DATA_URL, { cache: "no-store" })
+    .then(function (res) {
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      return res.json();
+    })
+    .then(function (data) {
+      state.data = data;
+      els.loading.hidden = true;
+      renderMeta();
+      renderTabs();
+      render();
+    })
+    .catch(function (err) {
+      els.loading.hidden = true;
+      els.errorBox.hidden = false;
+      els.errorBox.textContent =
+        "記事データの読み込みに失敗しました（" + err.message + "）。" +
+        "初回は GitHub Actions の fetch ワークフローがまだ実行されていない可能性があります。";
+    });
+
+  function renderMeta() {
+    var updated = state.data.updatedAt ? new Date(state.data.updatedAt) : null;
+    els.meta.textContent = updated
+      ? "最終更新: " + formatDateTime(updated)
+      : "最終更新: 不明";
+
+    var failed = (state.data.feeds || []).filter(function (f) {
+      return f.status === "error";
+    });
+    if (failed.length > 0) {
+      els.feedIssues.hidden = false;
+      els.feedIssuesList.innerHTML = "";
+      failed.forEach(function (f) {
+        var li = document.createElement("li");
+        li.textContent = f.title + ": " + (f.error || "取得失敗");
+        els.feedIssuesList.appendChild(li);
+      });
+    }
+  }
+
+  function renderTabs() {
+    var categories = state.data.categories || [];
+    els.tabs.innerHTML = "";
+    els.tabs.appendChild(makeTab(ALL_CATEGORY, "すべて"));
+    categories.forEach(function (cat) {
+      els.tabs.appendChild(makeTab(cat, cat));
+    });
+  }
+
+  function makeTab(value, label) {
+    var btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "tab" + (state.activeCategory === value ? " active" : "");
+    btn.dataset.category = value;
+
+    var labelSpan = document.createElement("span");
+    labelSpan.textContent = label;
+    btn.appendChild(labelSpan);
+
+    var countSpan = document.createElement("span");
+    countSpan.className = "count";
+    countSpan.textContent = "(" + countUnread(value) + ")";
+    btn.appendChild(countSpan);
+
+    btn.addEventListener("click", function () {
+      state.activeCategory = value;
+      saveString(ACTIVE_CATEGORY_KEY, value);
+      renderTabs();
+      render();
+    });
+    return btn;
+  }
+
+  function countUnread(category) {
+    var articles = state.data.articles || [];
+    return articles.filter(function (a) {
+      if (category !== ALL_CATEGORY && a.category !== category) return false;
+      return !state.readIds.has(a.id);
+    }).length;
+  }
+
+  function getVisibleArticles() {
+    var articles = state.data.articles || [];
+    return articles.filter(function (a) {
+      if (state.activeCategory !== ALL_CATEGORY && a.category !== state.activeCategory) {
+        return false;
+      }
+      if (state.unreadOnly && state.readIds.has(a.id)) {
+        return false;
+      }
+      return true;
+    });
+  }
+
+  function render() {
+    var articles = getVisibleArticles();
+    els.articleList.innerHTML = "";
+    els.empty.hidden = articles.length !== 0;
+
+    articles.forEach(function (article) {
+      els.articleList.appendChild(renderArticle(article));
+    });
+  }
+
+  function renderArticle(article) {
+    var isRead = state.readIds.has(article.id);
+
+    var card = document.createElement("article");
+    card.className = "article" + (isRead ? " is-read" : "");
+
+    var top = document.createElement("div");
+    top.className = "article-top";
+
+    var badge = document.createElement("span");
+    badge.className = "badge";
+    badge.textContent = article.category || "";
+    top.appendChild(badge);
+
+    var dateSpan = document.createElement("span");
+    dateSpan.textContent = article.pubDate ? formatDateTime(new Date(article.pubDate)) : "";
+    top.appendChild(dateSpan);
+
+    card.appendChild(top);
+
+    var link = document.createElement("a");
+    link.className = "title-link";
+    link.textContent = article.title || "(no title)";
+    var safeHref = sanitizeUrl(article.link);
+    if (safeHref) {
+      link.href = safeHref;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.addEventListener("click", function () {
+        if (!state.readIds.has(article.id)) {
+          state.readIds.add(article.id);
+          saveReadIds();
+          render();
+        }
+      });
+    }
+    card.appendChild(link);
+
+    var feedLine = document.createElement("div");
+    feedLine.className = "snippet";
+    feedLine.style.marginBottom = "2px";
+    feedLine.textContent = article.feedTitle || "";
+    card.appendChild(feedLine);
+
+    if (article.contentSnippet) {
+      var snippet = document.createElement("p");
+      snippet.className = "snippet";
+      snippet.textContent = article.contentSnippet;
+      card.appendChild(snippet);
+    }
+
+    var actions = document.createElement("div");
+    actions.className = "article-actions";
+    var toggleBtn = document.createElement("button");
+    toggleBtn.type = "button";
+    toggleBtn.textContent = isRead ? "未読に戻す" : "既読にする";
+    toggleBtn.addEventListener("click", function () {
+      if (state.readIds.has(article.id)) {
+        state.readIds.delete(article.id);
+      } else {
+        state.readIds.add(article.id);
+      }
+      saveReadIds();
+      render();
+      renderTabs();
+    });
+    actions.appendChild(toggleBtn);
+    card.appendChild(actions);
+
+    return card;
+  }
+
+  function sanitizeUrl(url) {
+    if (!url) return null;
+    try {
+      var parsed = new URL(url, window.location.href);
+      if (parsed.protocol === "http:" || parsed.protocol === "https:") {
+        return parsed.href;
+      }
+    } catch (e) {
+      /* invalid URL */
+    }
+    return null;
+  }
+
+  function formatDateTime(date) {
+    if (isNaN(date.getTime())) return "";
+    return date.toLocaleString("ja-JP", {
+      timeZone: "Asia/Tokyo",
+      month: "numeric",
+      day: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+    });
+  }
+
+  function loadReadIds() {
+    try {
+      var raw = window.localStorage.getItem(READ_IDS_KEY);
+      var arr = raw ? JSON.parse(raw) : [];
+      return new Set(Array.isArray(arr) ? arr : []);
+    } catch (e) {
+      return new Set();
+    }
+  }
+
+  function saveReadIds() {
+    try {
+      window.localStorage.setItem(READ_IDS_KEY, JSON.stringify(Array.from(state.readIds)));
+    } catch (e) {
+      /* storage unavailable (private mode, quota, etc.) */
+    }
+  }
+
+  function loadString(key, fallback) {
+    try {
+      var v = window.localStorage.getItem(key);
+      return v === null ? fallback : v;
+    } catch (e) {
+      return fallback;
+    }
+  }
+
+  function saveString(key, value) {
+    try {
+      window.localStorage.setItem(key, value);
+    } catch (e) {
+      /* ignore */
+    }
+  }
+
+  function loadBool(key, fallback) {
+    var v = loadString(key, null);
+    return v === null ? fallback : v === "true";
+  }
+
+  function saveBool(key, value) {
+    saveString(key, value ? "true" : "false");
+  }
+})();
+</script>
+</body>
+</html>

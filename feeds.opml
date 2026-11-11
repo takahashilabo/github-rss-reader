@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>github-rss-reader feeds</title>
+  </head>
+  <body>
+    <outline text="AI" title="AI">
+      <outline text="AIニュース | AIポータルメディアAIsmiley" title="AIニュース | AIポータルメディアAIsmiley" type="rss" xmlUrl="https://aismiley.co.jp/ai_news/feed/" htmlUrl="https://aismiley.co.jp/"/>
+      <outline text="AI部" title="AI部" type="rss" xmlUrl="https://note.com/ai_l/rss" htmlUrl="https://note.com/ai_l"/>
+    </outline>
+    <outline text="ITニュース" title="ITニュース">
+      <outline text="Adafruit Industries" title="Adafruit Industries" type="rss" xmlUrl="https://blog.adafruit.com/feed/" htmlUrl="https://blog.adafruit.com/"/>
+      <outline text="Device Plus" title="Device Plus" type="rss" xmlUrl="https://deviceplus.jp/feed" htmlUrl="https://deviceplus.jp/"/>
+      <outline text="ELEKIT VOICE" title="ELEKIT VOICE" type="rss" xmlUrl="https://voice.elekit.co.jp/feed" htmlUrl="https://voice.elekit.co.jp/"/>
+      <outline text="GIGAZINE" title="GIGAZINE" type="rss" xmlUrl="https://gigazine.net/news/rss_atom/" htmlUrl="http://gigazine.net/"/>
+      <outline text="Gizmodo Japan" title="Gizmodo Japan" type="rss" xmlUrl="https://www.gizmodo.jp/index.xml" htmlUrl="https://www.gizmodo.jp/"/>
+      <outline text="Hackaday" title="Hackaday" type="rss" xmlUrl="https://hackaday.com/feed/" htmlUrl="https://hackaday.com/"/>
+      <outline text="inajobのいろいろレビュー" title="inajobのいろいろレビュー" type="rss" xmlUrl="https://inajob.github.io/iroiro-review/index.xml" htmlUrl="https://inajob.github.io/iroiro-review/"/>
+      <outline text="KAI-YOU.net" title="KAI-YOU.net" type="rss" xmlUrl="https://kai-you.net/contents/feed.rss" htmlUrl="https://kai-you.net/"/>
+      <outline text="Lifehacker" title="Lifehacker" type="rss" xmlUrl="https://lifehacker.com/feed/rss" htmlUrl="http://lifehacker.com/"/>
+      <outline text="Make:" title="Make:" type="rss" xmlUrl="https://makezine.com/feed/" htmlUrl="https://makezine.com/"/>
+      <outline text="Mogura VR" title="Mogura VR" type="rss" xmlUrl="https://www.moguravr.com/rss/" htmlUrl="https://www.moguravr.com/"/>
+      <outline text="robotstart.info" title="robotstart.info" type="rss" xmlUrl="https://robotstart.info/rss20/index.rdf" htmlUrl="https://robotstart.info/"/>
+      <outline text="techno-edge" title="techno-edge" type="rss" xmlUrl="https://www.techno-edge.net/rss20/index.rdf" htmlUrl="https://www.techno-edge.net/"/>
+      <outline text="バーチャルライフマガジン" title="バーチャルライフマガジン" type="rss" xmlUrl="https://vr-lifemagazine.com/feed/" htmlUrl="https://vr-lifemagazine.com/"/>
+    </outline>
+    <outline text="ブログ" title="ブログ">
+      <outline text="84zume works" title="84zume works" type="rss" xmlUrl="https://84zume.work/feed/" htmlUrl="https://84zume.work/"/>
+      <outline text="ABAの日誌" title="ABAの日誌" type="rss" xmlUrl="https://aba.hatenablog.com/feed" htmlUrl="http://d.hatena.ne.jp/ABA/"/>
+      <outline text="Bertrand Meyer's technology+ blog" title="Bertrand Meyer's technology+ blog" type="rss" xmlUrl="https://feeds.feedburner.com/BertrandMeyer" htmlUrl="https://bertrandmeyer.com/"/>
+      <outline text="Geekなぺーじ" title="Geekなぺーじ" type="rss" xmlUrl="https://www.geekpage.jp/rss.php" htmlUrl="https://www.geekpage.jp/"/>
+      <outline text="Martin Fowler" title="Martin Fowler" type="rss" xmlUrl="https://martinfowler.com/feed.atom" htmlUrl="https://martinfowler.com/"/>
+      <outline text="POSTD" title="POSTD" type="rss" xmlUrl="https://postd.cc/feed/" htmlUrl="https://postd.cc/"/>
+      <outline text="Publickey" title="Publickey" type="rss" xmlUrl="https://www.publickey1.jp/atom.xml" htmlUrl="https://www.publickey1.jp/"/>
+      <outline text="Ruby Performance Newsletter (JA)" title="Ruby Performance Newsletter (JA)" type="rss" xmlUrl="https://us11.campaign-archive.com/feed?u=1aa0f43522f6d9ef96d1c5d6f&amp;id=23ddff143f" htmlUrl="https://us11.campaign-archive.com/feed?u=1aa0f43522f6d9ef96d1c5d6f&amp;id=23ddff143f"/>
+      <outline text="TechRacho" title="TechRacho" type="rss" xmlUrl="https://techracho.bpsinc.jp/feed" htmlUrl="https://techracho.bpsinc.jp/"/>
+      <outline text="きしだのはてな" title="きしだのはてな" type="rss" xmlUrl="https://nowokay.hatenablog.com/feed" htmlUrl="http://d.hatena.ne.jp/nowokay/"/>
+      <outline text="ひとりぶろぐ" title="ひとりぶろぐ" type="rss" xmlUrl="http://hitoriblog.com/?feed=rss2" htmlUrl="http://hitoriblog.com/"/>
+      <outline text="プログラマーの脳みそ" title="プログラマーの脳みそ" type="rss" xmlUrl="https://nagise.hatenablog.jp/feed" htmlUrl="http://d.hatena.ne.jp/Nagise/"/>
+      <outline text="プログラマの思索" title="プログラマの思索" type="rss" xmlUrl="https://forza.cocolog-nifty.com/blog/atom.xml" htmlUrl="https://forza.cocolog-nifty.com/blog/"/>
+      <outline text="メタエレ実験室" title="メタエレ実験室" type="rss" xmlUrl="https://hellobreak.net/feed/" htmlUrl="https://hellobreak.net/"/>
+      <outline text="発声練習" title="発声練習" type="rss" xmlUrl="https://next49.hatenadiary.jp/feed" htmlUrl="http://d.hatena.ne.jp/next49/"/>
+      <outline text="結城浩のはてな日記" title="結城浩のはてな日記" type="rss" xmlUrl="https://hyuki.hatenablog.com/feed" htmlUrl="http://d.hatena.ne.jp/hyuki/"/>
+      <outline text="船田戦闘機日誌" title="船田戦闘機日誌" type="rss" xmlUrl="https://www.nnar.org/feed" htmlUrl="http://www.nnar.org/"/>
+    </outline>
+    <outline text="大学・学会・研究" title="大学・学会・研究">
+      <outline text="Communications of the ACM: blog@CACM" title="Communications of the ACM: blog@CACM" type="rss" xmlUrl="https://cacm.acm.org/section/blogcacm/feed/" htmlUrl="https://cacm.acm.org/blogs/blog-cacm.rss"/>
+      <outline text="Computing Education Blog" title="Computing Education Blog" type="rss" xmlUrl="https://computinged.wordpress.com/feed/" htmlUrl="https://computinged.wordpress.com/"/>
+      <outline text="Nazology" title="Nazology" type="rss" xmlUrl="https://nazology.kusuguru.co.jp/feed" htmlUrl="https://nazology.net/"/>
+      <outline text="MIT Technology Review" title="MIT Technology Review" type="rss" xmlUrl="https://www.technologyreview.com/topnews.rss" htmlUrl="https://www.technologyreview.com/"/>
+      <outline text="大学ジャーナルオンライン" title="大学ジャーナルオンライン" type="rss" xmlUrl="https://univ-journal.jp/feed/" htmlUrl="https://univ-journal.jp/"/>
+    </outline>
+  </body>
+</opml>
