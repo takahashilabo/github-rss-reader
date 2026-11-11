@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>既読にしました</title>
+<style>
+  :root {
+    --bg: #f5f6f8;
+    --surface: #ffffff;
+    --text: #1b1f23;
+    --text-dim: #6a7280;
+    --border: #e2e5ea;
+    --accent: #2563eb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #15181c;
+      --surface: #1f2328;
+      --text: #e6e8eb;
+      --text-dim: #9aa1ab;
+      --border: #2d3238;
+      --accent: #5b8df6;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    max-width: 420px;
+    width: calc(100% - 32px);
+    text-align: center;
+  }
+  .card p { margin: 0 0 12px; }
+  .card a {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <p id="result">処理中...</p>
+  <a href="./">RSS Readerを開く</a>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var READ_IDS_KEY = "ghRssReader.readIds";
+
+  function loadReadIds() {
+    try {
+      var raw = window.localStorage.getItem(READ_IDS_KEY);
+      var arr = raw ? JSON.parse(raw) : [];
+      return new Set(Array.isArray(arr) ? arr : []);
+    } catch (e) {
+      return new Set();
+    }
+  }
+
+  function saveReadIds(set) {
+    try {
+      window.localStorage.setItem(READ_IDS_KEY, JSON.stringify(Array.from(set)));
+    } catch (e) {
+      /* storage unavailable (private mode, quota, etc.) */
+    }
+  }
+
+  var resultEl = document.getElementById("result");
+  var params = new URLSearchParams(window.location.search);
+  var from = params.get("from");
+  var to = params.get("to");
+
+  if (!from || !to) {
+    resultEl.textContent = "既読にする範囲が指定されていません。";
+    return;
+  }
+
+  var fromMs = new Date(from).getTime();
+  var toMs = new Date(to).getTime();
+
+  fetch("./data/articles.json", { cache: "no-store" })
+    .then(function (res) {
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      return res.json();
+    })
+    .then(function (data) {
+      var ids = (data.articles || [])
+        .filter(function (a) {
+          if (!a.pubDate) return false;
+          var t = new Date(a.pubDate).getTime();
+          return t >= fromMs && t <= toMs;
+        })
+        .map(function (a) { return a.id; });
+
+      if (ids.length === 0) {
+        resultEl.textContent = "該当する記事がありませんでした。";
+        return;
+      }
+
+      var readIds = loadReadIds();
+      ids.forEach(function (id) { readIds.add(id); });
+      saveReadIds(readIds);
+      resultEl.textContent = ids.length + "件を既読にしました。";
+    })
+    .catch(function (err) {
+      resultEl.textContent = "記事データの取得に失敗しました（" + err.message + "）。";
+    });
+})();
+</script>
+</body>
+</html>
