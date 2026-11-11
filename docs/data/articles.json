@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T05:29:18.026Z",
+  "updatedAt": "2026-11-11T06:20:25.966Z",
   "categories": [
     "AI",
     "ITニュース",
@@ -136,15 +136,6 @@
       "itemCount": 10
     },
     {
-      "title": "84zume works",
-      "category": "ブログ",
-      "xmlUrl": "https://84zume.work/feed/",
-      "htmlUrl": "https://84zume.work/",
-      "status": "error",
-      "itemCount": 0,
-      "error": "fetch failed"
-    },
-    {
       "title": "ABAの日誌",
       "category": "ブログ",
       "xmlUrl": "https://aba.hatenablog.com/feed",
@@ -241,15 +232,6 @@
       "itemCount": 5
     },
     {
-      "title": "メタエレ実験室",
-      "category": "ブログ",
-      "xmlUrl": "https://hellobreak.net/feed/",
-      "htmlUrl": "https://hellobreak.net/",
-      "status": "error",
-      "itemCount": 0,
-      "error": "fetch failed"
-    },
-    {
       "title": "発声練習",
       "category": "ブログ",
       "xmlUrl": "https://next49.hatenadiary.jp/feed",
@@ -317,6 +299,76 @@
   ],
   "articles": [
     {
+      "id": "707080d9a2f8ad88533b15af042a3f7d9dd054d7",
+      "title": "This Coffee Machine is DOOMed",
+      "link": "https://hackaday.com/2026/11/10/this-coffee-machine-is-doomed/",
+      "pubDate": "2026-11-11T06:00:18.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Hackaday",
+      "feedUrl": "https://hackaday.com/",
+      "contentSnippet": "Somehow, seeing DOOM on things that were never meant to run DOOM never gets old. It’s probably hard to get further into the “never meant to run DOOM” weeds than …read more"
+    },
+    {
+      "id": "10b4903168e8f69f059130389d8c8649512be568",
+      "title": "ドーパミンが人間が本来避ける「苦み」をおいしく感じるよう指示している、最初は嫌いでも食べるうちに好きになっていくメカニズムの一部が明らかに",
+      "link": "https://gigazine.net/news/20261111-why-learn-to-love-bitter-coffee/",
+      "pubDate": "2026-11-11T06:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "ドーパミンの作用である可能性が、最新の研究により明らかになっています。 続きを読む..."
+    },
+    {
+      "id": "ae470654d2b42b18a73598568acfc7e0da7e2eb9",
+      "title": "Apple、iOS 28とmacOS 28の開発プロセスを変更するかも。新機能開発に注力か",
+      "link": "https://www.gizmodo.jp/article/2611-apple-ios28-macos28-development-process/",
+      "pubDate": "2026-11-11T06:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Gizmodo Japan",
+      "feedUrl": "https://www.gizmodo.jp/",
+      "contentSnippet": "AppleがiOS 28やmacOS 28の開発プロセスを変更したと報じられています。新機能の開発期間が増加した背景や、今後のOS開発の行方について解説します。"
+    },
+    {
+      "id": "95d590c94bfaba9b091c8431a81c08df8fba82f1",
+      "title": "若い大人ほど幸福度が低く、年を重ねるほど上がっていくと判明",
+      "link": "https://nazology.kusuguru.co.jp/archives/206419",
+      "pubDate": "2026-11-11T06:00:00.000Z",
+      "category": "大学・学会・研究",
+      "feedTitle": "Nazology",
+      "feedUrl": "https://nazology.net/",
+      "contentSnippet": "人生のなかで、幸せな気持ちがいちばん落ち込むのは何歳ごろなのでしょうか？ よく言われてきた答えは「中年」です。 若いころと年をとってからは比較的幸せで、その間の働き盛りに谷がくるというのです。 幸福度を年齢順に並べるとアルファベットのUの字に見えるため、「U字」の形として知られてきました。 ところが、世界92カ国のおよそ5万4000人の大人に聞いた新しい調査は、この常識に疑問を投げかけています。 では、いま世界でいちばん心がしんどい思いをしているのは、どの年代なのでしょうか？ 研究の詳細は、米コロンビア大学らにより、2026年10月30日付で学術誌『Social Indicators Rese…"
+    },
+    {
+      "id": "6b0efee0d0fa2a46dbc6adad53cca82500086335",
+      "title": "Google、最上位AIモデル「Gemini 4 Carbon」提供開始",
+      "link": "https://www.techno-edge.net/article/2026/11/11/5703.html",
+      "pubDate": "2026-11-11T05:52:11.000Z",
+      "category": "ITニュース",
+      "feedTitle": "techno-edge",
+      "feedUrl": "https://www.techno-edge.net/",
+      "contentSnippet": "Googleは最高峰AI Gemini 4 Carbonの提供を開始。サイバー防御と長時間自律作業向けでAI Ultra加入者へ拡大。"
+    },
+    {
+      "id": "e1b4cb4d7f7da7651cfa39b3c837e76e86b4035a",
+      "title": "The Python on Microcontrollers Newsletter: subscribe for free",
+      "link": "https://blog.adafruit.com/2026/11/11/the-python-on-microcontrollers-newsletter-subscribe-for-free-11-10-2-2/",
+      "pubDate": "2026-11-11T05:40:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "The Python for Microcontrollers Newsletter is the place for the latest news involving Python on hardware (microcontrollers AND single board computers like Raspberry Pi). This ad-free, spam-free weekly email is filled with CircuitPython, MicroPython, and Python information that you may have missed, a…"
+    },
+    {
+      "id": "e6773c2416451dc88c6cb5f5ff5f3866077d94fc",
+      "title": "AIを使って部屋のどこから鳴っているのか分からない謎の「ピッ」という音の発生源を突き止めた話",
+      "link": "https://gigazine.net/news/20261111-mysterious-beeps/",
+      "pubDate": "2026-11-11T05:40:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "続きを読む..."
+    },
+    {
       "id": "d5439a295d74cc90ccfb6d15c408af60abe04448",
       "title": "AGIBOT「G2 Max」の紹介動画を公開、両腕40kgの可搬重量と全方向移動で工場・倉庫の作業を支援",
       "link": "https://robotstart.info/article/2026/11/11/382619.html",
@@ -380,11 +432,11 @@
       "id": "f589ac0aee4c4c6cd815396948accafffe12ffd9",
       "title": "元KAT-TUN亀梨和也×赤西仁、Kアリーナ横浜でツーマンライブ開催　18年ぶりに“仁亀”が復活",
       "link": "https://kai-you.net/article/97117",
-      "pubDate": "2026-11-11T04:29:00.000Z",
+      "pubDate": "2026-11-11T04:30:00.000Z",
       "category": "ITニュース",
       "feedTitle": "KAI-YOU.net",
       "feedUrl": "https://kai-you.net/",
-      "contentSnippet": "元KAT-TUNの亀梨和也さんと赤西仁さんが、ツーマンライブ「KAZUYA KAMENASHI × JIN AKANISHI LIVE 2027」の開催を発表した。公演は2027年8月18日（水）・19日（木）の2日間、神奈川・Kアリーナ横浜で開催。2人が揃ってライブ公演を行うのは、KAT-TUN時代以来約18年ぶりとなる。初期KAT-TUNの実質ツートップ“仁亀”亀梨和也さんと赤西仁さんは、2001年に結成、2025年に解散したアイドルグループ・KAT-TUNの元メンバー。グループの活動初期に..."
+      "contentSnippet": "元KAT-TUNの亀梨和也さんと赤西仁さんが、ツーマンライブ「KAZUYA KAMENASHI × JIN AKANISHI LIVE 2027」の開催を発表した。公演は2027年8月18日（水）・19日（木）の2日間、神奈川・Kアリーナ横浜で開催。2人が揃ってライブ公演を行うのは、KAT-TUN時代以来約18年ぶりとなる。初期KAT-TUNの実質的ツートップ“仁亀”こと亀梨和也と赤西仁亀梨和也さんと赤西仁さんは、2001年に結成、2025年に解散したアイドルグループ・KAT-TUNの元メンバー..."
     },
     {
       "id": "3ba30db8d1833ee2a2dbdfff1c2e97e5c3dfc5ad",
@@ -415,6 +467,16 @@
       "feedTitle": "KAI-YOU.net",
       "feedUrl": "https://kai-you.net/",
       "contentSnippet": "12月4日（金）公開の映画『VIVANT』の本ポスタービジュアルが解禁された。ポスターには、主演の堺雅人さんが演じる主人公・乃木憂助と、その裏の人格「F（エフ）」が登場。対照的な表情を見せる2人の姿とともに、阿部寛さん、二階堂ふみさん、二宮和也さん、松坂桃李さん、役所広司さんら、総勢17人のキャストの名前が記されている。映画『VIVANT』は、11月8日に最終回を迎えたTBS系ドラマ『VIVANT』の完全新作映画。ドラマ最終回で映画化がサプライズ発表され、約1ヶ月後という異例の短期間での劇場公開..."
+    },
+    {
+      "id": "1f9817e698bb90c33003d3071187d4f0d201688c",
+      "title": "【AI博覧会 Osaka 2027】マイドームおおさかにて2027年1月20日・1月21日に開催～フィジカルAIロボットゾーンなど最新AIソリューションが集結～",
+      "link": "https://aismiley.co.jp/ai_news/aihaku_osaka_2027/",
+      "pubDate": "2026-11-11T04:00:31.000Z",
+      "category": "AI",
+      "feedTitle": "AIニュース | AIポータルメディアAIsmiley",
+      "feedUrl": "https://aismiley.co.jp/",
+      "contentSnippet": "国内最大級のAIポータルメディア「AIsmiley」を運営する株式会社アイスマイリーは、2027年1月20日（水）・1月21日（木）の2日間、マイドームおおさかにて「AI博覧会 Osaka 2027」を開催します。今回1 […] The post 【AI博覧会 Osaka 2027】マイドームおおさかにて2027年1月20日・1月21日に開催～フィジカルAIロボットゾーンなど最新AIソリューションが集結～ first appeared on AIポータルメディアAIsmiley."
     },
     {
       "id": "46bcb7b9701f3d1a255212b87412f97c7839d69b",
@@ -578,7 +640,7 @@
     },
     {
       "id": "eedc6bdaf45ac16206d99fbf5f65c8a6b2a990cf",
-      "title": "速報：ドコモの5G SAでまた通信障害、11月11日10時34分から全国で",
+      "title": "更新：ドコモの5G SAでまた通信障害、11月11日10時34分から全国で",
       "link": "https://www.techno-edge.net/article/2026/11/11/5700.html",
       "pubDate": "2026-11-11T02:59:48.000Z",
       "category": "ITニュース",
