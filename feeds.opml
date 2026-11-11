@@ -25,7 +25,6 @@
       <outline text="バーチャルライフマガジン" title="バーチャルライフマガジン" type="rss" xmlUrl="https://vr-lifemagazine.com/feed/" htmlUrl="https://vr-lifemagazine.com/"/>
     </outline>
     <outline text="ブログ" title="ブログ">
-      <outline text="84zume works" title="84zume works" type="rss" xmlUrl="https://84zume.work/feed/" htmlUrl="https://84zume.work/"/>
       <outline text="ABAの日誌" title="ABAの日誌" type="rss" xmlUrl="https://aba.hatenablog.com/feed" htmlUrl="http://d.hatena.ne.jp/ABA/"/>
       <outline text="Bertrand Meyer's technology+ blog" title="Bertrand Meyer's technology+ blog" type="rss" xmlUrl="https://feeds.feedburner.com/BertrandMeyer" htmlUrl="https://bertrandmeyer.com/"/>
       <outline text="Geekなぺーじ" title="Geekなぺーじ" type="rss" xmlUrl="https://www.geekpage.jp/rss.php" htmlUrl="https://www.geekpage.jp/"/>
@@ -38,7 +37,6 @@
       <outline text="ひとりぶろぐ" title="ひとりぶろぐ" type="rss" xmlUrl="http://hitoriblog.com/?feed=rss2" htmlUrl="http://hitoriblog.com/"/>
       <outline text="プログラマーの脳みそ" title="プログラマーの脳みそ" type="rss" xmlUrl="https://nagise.hatenablog.jp/feed" htmlUrl="http://d.hatena.ne.jp/Nagise/"/>
       <outline text="プログラマの思索" title="プログラマの思索" type="rss" xmlUrl="https://forza.cocolog-nifty.com/blog/atom.xml" htmlUrl="https://forza.cocolog-nifty.com/blog/"/>
-      <outline text="メタエレ実験室" title="メタエレ実験室" type="rss" xmlUrl="https://hellobreak.net/feed/" htmlUrl="https://hellobreak.net/"/>
       <outline text="発声練習" title="発声練習" type="rss" xmlUrl="https://next49.hatenadiary.jp/feed" htmlUrl="http://d.hatena.ne.jp/next49/"/>
       <outline text="結城浩のはてな日記" title="結城浩のはてな日記" type="rss" xmlUrl="https://hyuki.hatenablog.com/feed" htmlUrl="http://d.hatena.ne.jp/hyuki/"/>
       <outline text="船田戦闘機日誌" title="船田戦闘機日誌" type="rss" xmlUrl="https://www.nnar.org/feed" htmlUrl="http://www.nnar.org/"/>
