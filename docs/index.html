@@ -127,9 +127,9 @@
   .article {
     background: var(--surface);
     border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 12px 14px;
-    margin-bottom: 10px;
+    border-radius: 8px;
+    padding: 9px 12px;
+    margin-bottom: 6px;
   }
   .article.is-read {
     background: var(--read-bg);
@@ -140,44 +140,28 @@
   .article-top {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     gap: 8px;
-    font-size: 12px;
-    color: var(--text-dim);
-    margin-bottom: 4px;
+    margin-bottom: 2px;
   }
-  .badge {
-    background: var(--accent-bg);
+  .feed-name {
+    font-weight: 700;
     color: var(--accent);
-    border-radius: 999px;
-    padding: 1px 8px;
-    font-size: 11px;
+    font-size: 13px;
+  }
+  .date {
+    color: var(--text-dim);
+    font-size: 12px;
+    white-space: nowrap;
   }
   .title-link {
     color: var(--text);
     text-decoration: none;
     font-weight: 600;
     display: block;
-    margin-bottom: 4px;
   }
   .title-link:hover {
     text-decoration: underline;
-  }
-  .snippet {
-    color: var(--text-dim);
-    font-size: 13px;
-    margin: 0 0 8px;
-  }
-  .article-actions {
-    display: flex;
-    gap: 8px;
-  }
-  .article-actions button {
-    border: none;
-    background: none;
-    color: var(--accent);
-    font-size: 12px;
-    cursor: pointer;
-    padding: 0;
   }
   #empty, #loading, #errorBox {
     color: var(--text-dim);
@@ -402,11 +386,7 @@
     saveReadIds();
 
     var el = articleElements.get(id);
-    if (el) {
-      el.classList.add("is-read");
-      var btn = el.querySelector(".article-actions button");
-      if (btn) btn.textContent = "未読に戻す";
-    }
+    if (el) el.classList.add("is-read");
     updateTabCounts();
   }
 
@@ -427,12 +407,13 @@
     var top = document.createElement("div");
     top.className = "article-top";
 
-    var badge = document.createElement("span");
-    badge.className = "badge";
-    badge.textContent = article.category || "";
-    top.appendChild(badge);
+    var feedName = document.createElement("span");
+    feedName.className = "feed-name";
+    feedName.textContent = article.feedTitle || "";
+    top.appendChild(feedName);
 
     var dateSpan = document.createElement("span");
+    dateSpan.className = "date";
     dateSpan.textContent = article.pubDate ? formatDateTime(new Date(article.pubDate)) : "";
     top.appendChild(dateSpan);
 
@@ -455,37 +436,6 @@
       });
     }
     card.appendChild(link);
-
-    var feedLine = document.createElement("div");
-    feedLine.className = "snippet";
-    feedLine.style.marginBottom = "2px";
-    feedLine.textContent = article.feedTitle || "";
-    card.appendChild(feedLine);
-
-    if (article.contentSnippet) {
-      var snippet = document.createElement("p");
-      snippet.className = "snippet";
-      snippet.textContent = article.contentSnippet;
-      card.appendChild(snippet);
-    }
-
-    var actions = document.createElement("div");
-    actions.className = "article-actions";
-    var toggleBtn = document.createElement("button");
-    toggleBtn.type = "button";
-    toggleBtn.textContent = isRead ? "未読に戻す" : "既読にする";
-    toggleBtn.addEventListener("click", function () {
-      if (state.readIds.has(article.id)) {
-        state.readIds.delete(article.id);
-      } else {
-        state.readIds.add(article.id);
-      }
-      saveReadIds();
-      render();
-      renderTabs();
-    });
-    actions.appendChild(toggleBtn);
-    card.appendChild(actions);
 
     return card;
   }
