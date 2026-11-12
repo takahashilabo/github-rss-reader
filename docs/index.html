@@ -137,28 +137,62 @@
   .article.is-read .title-link {
     color: var(--read-text);
   }
-  .article-top {
+  .feed-group {
+    margin-bottom: 16px;
+  }
+  .feed-group-header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: baseline;
     gap: 8px;
-    margin-bottom: 2px;
+    padding: 2px 2px 6px;
+  }
+  .feed-group-header-left {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    min-width: 0;
   }
   .feed-name {
     font-weight: 700;
     color: var(--accent);
-    font-size: 13px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .feed-count {
+    color: var(--text-dim);
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  .feed-mark-read-btn {
+    border: none;
+    background: none;
+    color: var(--accent);
+    font-size: 12px;
+    cursor: pointer;
+    padding: 0;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .article-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
   }
   .date {
     color: var(--text-dim);
     font-size: 12px;
     white-space: nowrap;
+    flex-shrink: 0;
   }
   .title-link {
     color: var(--text);
     text-decoration: none;
     font-weight: 600;
-    display: block;
+    min-width: 0;
   }
   .title-link:hover {
     text-decoration: underline;
@@ -215,6 +249,7 @@
   };
 
   var articleElements = new Map();
+  var feedGroupCountEls = new Map();
   var scrollObserver = null;
 
   var els = {
@@ -243,6 +278,7 @@
     });
     saveReadIds();
     render();
+    updateTabCounts();
   });
 
   fetch(DATA_URL, { cache: "no-store" })
@@ -326,6 +362,36 @@
     }).length;
   }
 
+  // Unread count for one feed, within the currently active category tab
+  // (mirrors countUnread's semantics: ignores the unread-only display toggle).
+  function countFeedUnread(feedTitle) {
+    var articles = state.data.articles || [];
+    return articles.filter(function (a) {
+      if (state.activeCategory !== ALL_CATEGORY && a.category !== state.activeCategory) return false;
+      if ((a.feedTitle || "") !== feedTitle) return false;
+      return !state.readIds.has(a.id);
+    }).length;
+  }
+
+  // Groups already-sorted (newest-first) articles by feed, preserving each
+  // feed's first appearance — so feed groups end up ordered by their most
+  // recent visible article, same as the old flat list's overall ordering.
+  function groupArticlesByFeed(articles) {
+    var order = [];
+    var map = {};
+    articles.forEach(function (a) {
+      var key = a.feedTitle || "";
+      if (!map[key]) {
+        map[key] = [];
+        order.push(key);
+      }
+      map[key].push(a);
+    });
+    return order.map(function (feedTitle) {
+      return { feedTitle: feedTitle, articles: map[feedTitle] };
+    });
+  }
+
   function getVisibleArticles() {
     var articles = state.data.articles || [];
     return articles.filter(function (a) {
@@ -344,14 +410,62 @@
     els.articleList.innerHTML = "";
     els.empty.hidden = articles.length !== 0;
     articleElements.clear();
+    feedGroupCountEls.clear();
 
-    articles.forEach(function (article) {
-      var card = renderArticle(article);
-      articleElements.set(article.id, card);
-      els.articleList.appendChild(card);
+    groupArticlesByFeed(articles).forEach(function (group) {
+      els.articleList.appendChild(renderFeedGroup(group));
     });
 
     setupScrollObserver();
+  }
+
+  function renderFeedGroup(group) {
+    var section = document.createElement("section");
+    section.className = "feed-group";
+
+    var header = document.createElement("div");
+    header.className = "feed-group-header";
+
+    var left = document.createElement("div");
+    left.className = "feed-group-header-left";
+
+    var feedName = document.createElement("span");
+    feedName.className = "feed-name";
+    feedName.textContent = group.feedTitle || "(不明なフィード)";
+    left.appendChild(feedName);
+
+    var countSpan = document.createElement("span");
+    countSpan.className = "feed-count";
+    countSpan.textContent = "(" + countFeedUnread(group.feedTitle) + ")";
+    left.appendChild(countSpan);
+    feedGroupCountEls.set(group.feedTitle, countSpan);
+
+    header.appendChild(left);
+
+    var markBtn = document.createElement("button");
+    markBtn.type = "button";
+    markBtn.textContent = "既読にする";
+    markBtn.className = "feed-mark-read-btn";
+    markBtn.addEventListener("click", function () {
+      group.articles.forEach(function (a) {
+        state.readIds.add(a.id);
+      });
+      saveReadIds();
+      render();
+      updateTabCounts();
+    });
+    header.appendChild(markBtn);
+
+    section.appendChild(header);
+
+    group.articles.forEach(function (article) {
+      var card = renderArticle(article);
+      card.dataset.feed = group.feedTitle;
+      articleElements.set(article.id, card);
+      section.appendChild(card);
+    });
+
+    return section;
   }
 
   // Marks an article read once the user has scrolled it off the top of the
@@ -386,7 +500,12 @@
     saveReadIds();
 
     var el = articleElements.get(id);
-    if (el) el.classList.add("is-read");
+    if (el) {
+      el.classList.add("is-read");
+      var feedTitle = el.dataset.feed;
+      var countEl = feedGroupCountEls.get(feedTitle);
+      if (countEl) countEl.textContent = "(" + countFeedUnread(feedTitle) + ")";
+    }
     updateTabCounts();
   }
 
@@ -404,20 +523,8 @@
     card.className = "article" + (isRead ? " is-read" : "");
     card.dataset.id = article.id;
 
-    var top = document.createElement("div");
-    top.className = "article-top";
-
-    var feedName = document.createElement("span");
-    feedName.className = "feed-name";
-    feedName.textContent = article.feedTitle || "";
-    top.appendChild(feedName);
-
-    var dateSpan = document.createElement("span");
-    dateSpan.className = "date";
-    dateSpan.textContent = article.pubDate ? formatDateTime(new Date(article.pubDate)) : "";
-    top.appendChild(dateSpan);
-
-    card.appendChild(top);
+    var row = document.createElement("div");
+    row.className = "article-row";
 
     var link = document.createElement("a");
     link.className = "title-link";
@@ -435,7 +542,14 @@
         }
       });
     }
-    card.appendChild(link);
+    row.appendChild(link);
+
+    var dateSpan = document.createElement("span");
+    dateSpan.className = "date";
+    dateSpan.textContent = article.pubDate ? formatDateTime(new Date(article.pubDate)) : "";
+    row.appendChild(dateSpan);
+
+    card.appendChild(row);
 
     return card;
   }
