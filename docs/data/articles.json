@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T06:20:25.966Z",
+  "updatedAt": "2026-11-12T03:28:48.206Z",
   "categories": [
     "AI",
     "ITニュース",
@@ -228,8 +228,9 @@
       "category": "ブログ",
       "xmlUrl": "https://forza.cocolog-nifty.com/blog/atom.xml",
       "htmlUrl": "https://forza.cocolog-nifty.com/blog/",
-      "status": "ok",
-      "itemCount": 5
+      "status": "error",
+      "itemCount": 0,
+      "error": "HTTP 403 Forbidden"
     },
     {
       "title": "発声練習",
@@ -298,6 +299,1616 @@
     }
   ],
   "articles": [
+    {
+      "id": "0187031c79eb7ddf4e7d61eb0ae336f1cc0cabd4",
+      "title": "NVIDIAのCEOが離婚したら...慰謝料は12兆円くらいになりそう",
+      "link": "https://www.gizmodo.jp/article/2611-jensen-huang-divorce-settlement/",
+      "pubDate": "2026-11-12T03:15:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Gizmodo Japan",
+      "feedUrl": "https://www.gizmodo.jp/",
+      "contentSnippet": "NVIDIA創業者ジェンスン・フアンCEOが離婚した場合の慰謝料を予測。カリフォルニア州の共有資産の法律に基づき、過去最高額を大幅に超える可能性を解説します。"
+    },
+    {
+      "id": "3f0a5342ce5e6b0cf93cd0db6ee2aa12dbd81101",
+      "title": "東洋大学　2028年度入試より総合型選抜「基礎学力テスト型」を廃止　一般選抜前期日程2月1日（3教科型）などを新たに設定する方針発表",
+      "link": "https://univ-journal.jp/1003156/",
+      "pubDate": "2026-11-12T03:04:12.000Z",
+      "category": "大学・学会・研究",
+      "feedTitle": "大学ジャーナルオンライン",
+      "feedUrl": "https://univ-journal.jp/",
+      "contentSnippet": "東洋大学は2026年11月11日、総合型選抜「基礎学力テスト型」を2028年度入試から廃止すると発表した。なお、2026年11月29日に試験が行われる2027年度入試の総合型選抜「基礎学力テスト型」については、予定どおり実施される。 同大学によると、廃止の対象となるのは総合型選抜「基礎学力テスト型」のみであり、「AO型推薦入試」「自己推薦入試」などその他の総合型選抜、および「学校推薦型選抜」については、2028年度入試以降も継続して実施する予定。 各大学で行われている学力試験型（基礎学力テスト型等）とは、12月以前に行われるいわゆる年内入試で実施される方式で、英語・国語・数学などの教科試験を中…"
+    },
+    {
+      "id": "32a19ecef86ca7ad39d2a2441306433d7e2d9999",
+      "title": "It’s Elite, For The Commodore Pet",
+      "link": "https://hackaday.com/2026/11/11/its-elite-for-the-commodore-pet/",
+      "pubDate": "2026-11-12T03:00:20.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Hackaday",
+      "feedUrl": "https://hackaday.com/",
+      "contentSnippet": "A few times in the life of someone interested in technology, there comes along something which after seeing it, you know the field is never going to be the same …read more"
+    },
+    {
+      "id": "60bee676e25df08b232f34c1ffd66ee39c9d843b",
+      "title": "ソフトバンク デジタルツイン活用で被災した建物の応急危険度判定を遠隔から実施する技術を実証",
+      "link": "https://robotstart.info/article/2026/11/12/382623.html",
+      "pubDate": "2026-11-12T03:00:03.000Z",
+      "category": "ITニュース",
+      "feedTitle": "robotstart.info",
+      "feedUrl": "https://robotstart.info/",
+      "contentSnippet": "ソフトバンクは、和歌山県すさみ町と連携し、建物の形状や状態をデジタル空間に再現するデジタルツインを活用して、大規模地震の発生後に二次災害を防ぐために行われる応急危険度判定を遠隔から実施する技術の実証を、2026年6月29日、9月10日、11月11日に実施した。"
+    },
+    {
+      "id": "fdd7babda67066591463d46d813d7145cebb7a51",
+      "title": "『ストリートファイター6』のリュウと春麗がPC画面上に登場して必殺技でウィンドウを吹っ飛ばす「Desktop Mate」のDLCを使ってみた",
+      "link": "https://gigazine.net/news/20261112-desktop-mate-ryu-chunli-dlc/",
+      "pubDate": "2026-11-12T03:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "Desktop Mate」から、『ストリートファイター6』の「リュウ」と「春麗」のDLCが登場しました。必殺技でウィンドウを吹っ飛ばすこともできるとのことなので、実際にダウンロードして使ってみました。 続きを読む..."
+    },
+    {
+      "id": "012571fbf795123fbd078103f638566227313f06",
+      "title": "AIで社長になりすまし、従業員に金を振り込ませる。新手の詐欺で200億円超が騙し取られた",
+      "link": "https://www.gizmodo.jp/article/ai-ceo-impersonation-fraud-200-billion/",
+      "pubDate": "2026-11-12T03:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Gizmodo Japan",
+      "feedUrl": "https://www.gizmodo.jp/",
+      "contentSnippet": "社長から突然、極秘取引への協力を頼まれ、弁護士に連絡すると、送金の手順まで説明され…。しかし、その社長も弁護士も犯行グループのなりすましでした。"
+    },
+    {
+      "id": "4ff829337dc6b883de61a0d7cb0908f76c6f3a52",
+      "title": "たまごっちが雑誌『anan』をジャック　裏表紙はくちぱっちの…グラビア!?",
+      "link": "https://kai-you.net/article/97127",
+      "pubDate": "2026-11-12T03:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "KAI-YOU.net",
+      "feedUrl": "https://kai-you.net/",
+      "contentSnippet": "キーチェーン型育成ゲーム「たまごっち」が、11月18日（水）発売の雑誌『anan』2520号（マガジンハウス）スペシャルエディションの表紙に登場する。2026年現在1500種以上も存在するたまごっちの中から、表紙に抜擢されたのはまめっち。さらにバックカバーにはくちぱっちが、ジーパンをはきこなす「ジーニストくちぱ」として登場している。同号ではたまごっちの特集記事も掲載。さらに特別付録として「時を超える！トレンディたまごっちシール」も付属する。全8ページでたまごっちを特集。ももクロ・佐々木彩夏へのイ..."
+    },
+    {
+      "id": "14a9705d796f059a5b48382d09f397eb41356f3d",
+      "title": "DNA変異が細胞に与える影響を予測するAIモデル「AlphaGenome 2」をGoogle DeepMindが発表、病気の原因解明に期待",
+      "link": "https://gigazine.net/news/20261112-google-deepmind-alphagenome-2/",
+      "pubDate": "2026-11-12T02:53:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "続きを読む..."
+    },
+    {
+      "id": "ed3c92af0c1782eacee5448b9e5cde253b167fca",
+      "title": "Blueskyの通知がワンタップで「フォロー通知」「リプライ通知」「フォロー中の人」など絞り込み可能に",
+      "link": "https://gigazine.net/news/20261112-bluesky-new-notification-screen/",
+      "pubDate": "2026-11-12T02:49:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "続きを読む..."
+    },
+    {
+      "id": "c13ad9e52d4aecd01a699dddbabd9e7eb84dbba1",
+      "title": "「Qwen4-Max-Preview」が無料で使用可能になったのでゲームを作ってみた",
+      "link": "https://gigazine.net/news/20261112-qwen4-preview/",
+      "pubDate": "2026-11-12T02:45:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "続きを読む..."
+    },
+    {
+      "id": "3510a947db5d04d4c884e2224f5a035763787a7e",
+      "title": "M6 iMacで本当に欲しいのは、NeoとProかもしれない",
+      "link": "https://www.gizmodo.jp/article/2611-m6-imac-neo-and-pro/",
+      "pubDate": "2026-11-12T02:45:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Gizmodo Japan",
+      "feedUrl": "https://www.gizmodo.jp/",
+      "contentSnippet": "M6チップを搭載した新型iMacのレビュー。確かなパフォーマンス向上やゲーミング性能はGood。でも本当に欲しいのはNeoやProかも。"
+    },
+    {
+      "id": "e3ee065833025d5af39b18d6396a6edac5b417a1",
+      "title": "NVIDIAがジェンスン・フアンCEOを解任する準備を進めている",
+      "link": "https://gigazine.net/news/20261112-nvidia-preparing-oust-ceo/",
+      "pubDate": "2026-11-12T02:39:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "Maurizio Pesce 続きを読む..."
+    },
+    {
+      "id": "0a2fbc7cef7a7e2036a96aac026f838dc4f76826",
+      "title": "爆発直後の超新星、撮れました",
+      "link": "https://www.gizmodo.jp/article/supernova_images-c5i-lrt/",
+      "pubDate": "2026-11-12T02:35:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Gizmodo Japan",
+      "feedUrl": "https://www.gizmodo.jp/",
+      "contentSnippet": "2025年11月14日の記事を編集して再掲載しています。その残骸は意外にもオリーブみたいなカタチ。天文学者らは、巨大な恒星が死を迎える瞬間を初めて画像として捉えることに成功。2024年4月、超新星「SN 2024ggi」が観測されてからわず…"
+    },
+    {
+      "id": "e0d08766247ff894763a43df651ceffeeec6e046",
+      "title": "内閣府、Mrs. GREEN APPLEを広報に起用　ネットの偽情報に注意を呼びかける",
+      "link": "https://kai-you.net/article/97130",
+      "pubDate": "2026-11-12T02:31:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "KAI-YOU.net",
+      "feedUrl": "https://kai-you.net/",
+      "contentSnippet": "ロックバンド・Mrs. GREEN APPLEが、内閣府大臣官房政府広報室による政府広報キャンペーン「ネットにおける偽・誤情報対策」に起用された。11月12日（木）から、Mrs. GREEN APPLEが出演するテレビCMを全国で放映。Web動画や全国の小中高校などへの啓発ポスター、教材、交通広告なども展開される。キャンペーンの合言葉は「ま・さ・か」。「待つ」「探す」「確認する」の頭文字を取り、SNSなどで真偽のわからない情報に接した際、すぐに拡散しないための行動を呼びかける。Mrs. GREE..."
+    },
+    {
+      "id": "81c10675ac2aa6cd1dec3127208e2591c3b2075d",
+      "title": "Xアプリ、動画の切り抜き機能を実装",
+      "link": "https://www.gizmodo.jp/article/2611-x-app-video-clipping-feature/",
+      "pubDate": "2026-11-12T02:30:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Gizmodo Japan",
+      "feedUrl": "https://www.gizmodo.jp/",
+      "contentSnippet": "Xアプリに投稿動画の切り抜き機能が実装されました。iOSとAndroidで利用可能で、作成者と元動画の投稿者が共に収益を得られる仕組みです。"
+    },
+    {
+      "id": "d72f821f73088a1baaf8eb081f6af32a02577d7f",
+      "title": "インディーゲーム『めっちゃカメレオン』国際的ゲーム賞で4冠 『バイオハザード』と並び最多タイ",
+      "link": "https://kai-you.net/article/97126",
+      "pubDate": "2026-11-12T02:09:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "KAI-YOU.net",
+      "feedUrl": "https://kai-you.net/",
+      "contentSnippet": "インディーゲーム『めっちゃカメレオン』が、英国・ロンドンで現地時間11月11日に開催された「Golden Joystick Awards 2026」で4部門を受賞した。受賞したのは「ベストマルチプレイヤーゲーム」「ベストインディーゲーム（セルフパブリッシング）」「ストリーマーズチョイス賞」「開発者チョイス賞」の4部門。最高賞「Ultimate Game of the Year」を含む4部門を受賞した『バイオハザード レクイエム』と並び、今回のアワードで最多タイの受賞数となった。『めっちゃカメレオ..."
+    },
+    {
+      "id": "da72bd038d1d3c86e30ca0ad04d244d8ce87c539",
+      "title": "神様に荷物を届けるレースゲーム『Reality Drift』リリース 『塊魂』高橋慶太がコースをデザイン",
+      "link": "https://kai-you.net/article/97128",
+      "pubDate": "2026-11-12T02:05:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "KAI-YOU.net",
+      "feedUrl": "https://kai-you.net/",
+      "contentSnippet": "超現実ローグライクレースゲーム『Reality Drift』が11月12日（木）、Steamで発売された。神のような存在（？）に荷物を届けるため、99台のライバル車と競争するレースゲーム。天国、地獄、猫の国、さらには人間の体内といった奇妙な世界を走り抜ける。また、『塊魂』『Wattam』『to a T』などを手がけたゲームクリエイター・高橋慶太さんがゲストアーティストとして参加。人間の体内を駆け抜けるコースなどをデザインしている。『Reality Drift』の通常価格は2100円（税込）。発売..."
+    },
+    {
+      "id": "308a072b7bfd91ff4b4cb72be75a7aab3d845176",
+      "title": "Appleが約30年の歴史を持つ「Appleサポートコミュニティ」を2026年11月20日に閉鎖へ",
+      "link": "https://gigazine.net/news/20261112-apple-support-community-closing/",
+      "pubDate": "2026-11-12T02:04:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "続きを読む..."
+    },
+    {
+      "id": "bcc297fe5ea31cafa4c3832d69cf8357130cf808",
+      "title": "総務省　無料オンライン講座「“わかる・使える”統計解析プログラミング」を来年1月12日から新開講　受講登録は2/22まで",
+      "link": "https://univ-journal.jp/1003129/",
+      "pubDate": "2026-11-12T02:00:34.000Z",
+      "category": "大学・学会・研究",
+      "feedTitle": "大学ジャーナルオンライン",
+      "feedUrl": "https://univ-journal.jp/",
+      "contentSnippet": "2027年1月12日（火）より、総務省はデータサイエンス・オンライン講座「“わかる・使える”統計解析プログラミング」を新たに開講する。統計リテラシー向上の取組として“データサイエンス”力の高い人材育成をめざすもので、2月22日（月）まで受講登録を受け付けている。 オンライン講座「“わかる・使える”統計解析プログラミング」では、AI や統計的手法を用いてデータ分析を行うために必要となるプログラミングの有用性、重要性を理解するとともに、実際に Python を用いたプログラミングの基本を学ぶことができる。 開講期間は2027年1月12日（火）～3月16日（火）の予定。1回10分程度×4～7回程度の…"
+    },
+    {
+      "id": "0a338707a53ea0f62b3ab2242564ecda12986f70",
+      "title": "夜の駐車場でも「誰か」までわかる。Wi-Fiの届かない場所でも愛車を守る4Gカメラ",
+      "link": "https://www.gizmodo.jp/article/tapo-c665g-kit-4g-security-camera/",
+      "pubDate": "2026-11-12T02:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Gizmodo Japan",
+      "feedUrl": "https://www.gizmodo.jp/",
+      "contentSnippet": "朝起きたら、愛車が消えていた…。ドラマの話じゃありません。僕の住む地域でも、実際にあった出来事です。それ以来、セキュリティカメラは「あったら安心」ではなく「なきゃダメなもの」だよなぁと痛感。幸い、最近はネットワーク対応で、スマホからチェック…"
+    },
+    {
+      "id": "9a747cad0bc19d876f63c83ef54ca565a8673888",
+      "title": "人は年1回の大口寄付より「毎月の寄付」をする会社を高く評価する",
+      "link": "https://nazology.kusuguru.co.jp/archives/206323",
+      "pubDate": "2026-11-12T01:30:00.000Z",
+      "category": "大学・学会・研究",
+      "feedTitle": "Nazology",
+      "feedUrl": "https://nazology.net/",
+      "contentSnippet": "アメリカの企業は、2025年だけで440億ドル近くを寄付に回しました。 2022年の調査では、アメリカ人の88%が「企業が世界をよりよくすることは大切だ」と答えています。 企業はよく、寄付をなるべく大きな数字で宣伝します。 たとえばマイクロソフトは、会社と社員で2025年に2億5600万ドルを寄付したと発表しました。 ウォルマートとその財団も、2026年に20億ドルを寄付したとしています。 金額が大きいほど、立派な会社に見えそうです。 けれど、受け取る側の私たちの心は、本当に金額の大きさだけで動いているのでしょうか？ 同じ1年分の寄付でも、「年に1回まとめて」と「毎月少しずつ」で、印象は同じな…"
+    },
+    {
+      "id": "ce3b14b0fed7570cf9dd47e65e38da5f5e76006e",
+      "title": "PlayStation Portal プレーヤーの謎…本体ストレージの正体は？ 新たなハンドヘルドゲーム機となるか",
+      "link": "https://www.gizmodo.jp/article/2611-playstation-portal-player-storage-mystery/",
+      "pubDate": "2026-11-12T01:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Gizmodo Japan",
+      "feedUrl": "https://www.gizmodo.jp/",
+      "contentSnippet": "PS6携帯ゲーム機にはならない…？ 来月10日に発売となる「PlayStation Portal プレーヤー」の日本語専用モデル。謎の追加仕様が話題になっていたりします。PlayStation（PS）には据え置き型のコンソールゲーム機はあるものの、単独で遊べるハンドヘルド機は「PS Vita」以後は出ていません。もしや新モデルには大化けする性能が隠されているのでは？"
+    },
+    {
+      "id": "30936c4807fd27fe0414addff97b5dc5895723b6",
+      "title": "あなたが育てた惑星は、どんな星になる？ VRChatの惑星育成ゲーム『SimGaia IDLE』【寄稿】",
+      "link": "https://vr-lifemagazine.com/simgaia-idle_world/?utm_source=rss&utm_medium=rss&utm_campaign=simgaia-idle_world",
+      "pubDate": "2026-11-12T01:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "バーチャルライフマガジン",
+      "feedUrl": "https://vr-lifemagazine.com/",
+      "contentSnippet": "こんにちは、クロネコチルノです。私が制作したVRChatワールド『SimGaia IDLE』を公開しています。舞台は、窓の外に惑星が浮かぶ観測ステーション。卓上の立体マップに施設を建てたり、生き物を迎えたりして、ひとりで... あなたが育てた惑星は、どんな星になる？ VRChatの惑星育成ゲーム『SimGaia IDLE』【寄稿】 first appeared on バーチャルライフマガジン."
+    },
+    {
+      "id": "dba84eae4e8ea918673d951deda309d884577574",
+      "title": "Richard Feynman and the math of restaurant menu choices",
+      "link": "https://blog.adafruit.com/2026/11/11/richard-feynman-and-the-math-of-restaurant-menu-choices/",
+      "pubDate": "2026-11-12T00:45:41.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Delan Bruce writes in Caltech’s alumni magazine Techer about a math puzzle Richard Feynman scribbled out over dinner. Ralph Leighton, who co-wrote Surely You’re Joking, Mr. Feynman!, was a regular at Indra, a Thai restaurant in Glendale. He loved the ginger chicken and wondered how often he should t…"
+    },
+    {
+      "id": "8fc255385be0d44afeebad4687bfe459e9ffc963",
+      "title": "ジェンスン・フアン解任準備と報道。NVIDIAを揺るがすハニートラップ疑惑",
+      "link": "https://www.gizmodo.jp/article/2611-nvidia-jensen-huang-affair-spy/",
+      "pubDate": "2026-11-12T00:45:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Gizmodo Japan",
+      "feedUrl": "https://www.gizmodo.jp/",
+      "contentSnippet": "NVIDIAのジェンスン・フアンCEOの不倫と中国人スパイ疑惑について、取締役会が解任準備と報道がありました。"
+    },
+    {
+      "id": "6ddd136b99957dce770a9779d960c1b86fe328fc",
+      "title": "Your TV can see through walls",
+      "link": "https://blog.adafruit.com/2026/11/11/your-tv-can-see-through-walls/",
+      "pubDate": "2026-11-12T00:28:02.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "A post at maurycyz.com shows how an ordinary radio receiver can pick up movement through a wall, using nothing more than a broadcast TV signal and a waterfall display. The starting point is a spectrogram of a local TV station. Someone walking between the station and the antenna only nudges the signa…"
+    },
+    {
+      "id": "1f1c58c7865de1d4391779b13e82a60532c08578",
+      "title": "【製造業編】アクセンチュアが生成AIエージェントの実践事例を披露　契約書作成、CAD設計変更、製造現場の品質改善",
+      "link": "https://robotstart.info/article/2026/11/12/382622.html",
+      "pubDate": "2026-11-12T00:10:02.000Z",
+      "category": "ITニュース",
+      "feedTitle": "robotstart.info",
+      "feedUrl": "https://robotstart.info/",
+      "contentSnippet": "アクセンチュア株式会社は2026年11月9日、「フロンティアAI時代の企業変革をめぐる最新動向と経営課題」をテーマに記者勉強会を都内で開催した。"
+    },
+    {
+      "id": "000909ffed4d22af0f0c11b57d2e74762339d467",
+      "title": "2形態に変形するマトリクスLED",
+      "link": "https://inajob.github.io/iroiro-review/post/2%E5%BD%A2%E6%85%8B%E3%81%AB%E5%A4%89%E5%BD%A2%E3%81%99%E3%82%8B%E3%83%9E%E3%83%88%E3%83%AA%E3%82%AF%E3%82%B9led/",
+      "pubDate": "2026-11-12T00:06:50.000Z",
+      "category": "ITニュース",
+      "feedTitle": "inajobのいろいろレビュー",
+      "feedUrl": "https://inajob.github.io/iroiro-review/",
+      "contentSnippet": "@beavers_hive のポスト on X（2026-11-02 10:16） / Xから発見。画像もここから転載。 横長のフルカラーマトリクスLEDかと思いきや、変形するという機構の付いた面白い作例です。 表示する情報の種類に応じて形が変えられる というのが面白いし、自動で変形する仕掛けも意外性があって面白いです"
+    },
+    {
+      "id": "875b1c04ac4d5023c4ffaafff386b6db3dd46de8",
+      "title": "FLOSS Weekly Episode 883: Telnet Broke Us",
+      "link": "https://hackaday.com/2026/11/11/floss-weekly-episode-883-telnet-broke-us/",
+      "pubDate": "2026-11-12T00:00:42.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Hackaday",
+      "feedUrl": "https://hackaday.com/",
+      "contentSnippet": "This week Jonathan chats with Sattyam Jain about Agent Audit Kit and Agent Airlock. We’re in a brave new world, where anyone can use AI to generate an AI agent. …read more"
+    },
+    {
+      "id": "c310d232874e875169c066c668518673ba3ffa8a",
+      "title": "ゼロから独自開発した国産AIでトップクラスの日本語翻訳精度を実現する「PLaMo翻訳」を開発したPreferred Networksエンジニアに編集長が根掘り葉掘り聞いてみたよインタビュー",
+      "link": "https://gigazine.net/news/20261112-preferred-networks-plamo-translate-interview/",
+      "pubDate": "2026-11-12T00:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "PLaMo」はフルスクラッチで開発された国産生成AI基盤モデルで、日本語に特化しているのが特徴。このPLaMoベースで開発された「PLaMo翻訳」はとにかく非常に質の高い翻訳が可能で、テキスト翻訳だけでなくFirefoxやChromeの拡張機能でも提供されています。2026年10月にはPLaMo 3 NICTをベースにしたplamo-3-translateも登場し、翻訳の精度は随一のレベルに到達しています。そんなPLaMo翻訳がいったいどのように開発されたのかを、Firefoxアドオンが出た最初からず～っと使い続けているGIGAZINE編集長がPFNのPLaMo開発メンバーに根掘り葉掘り聞いて…"
+    },
+    {
+      "id": "a11b43b6b96a5bd3dbc588003d683ff192445d7d",
+      "title": "跳ねて飛ぶロボットがどんな地形も進めるように進化",
+      "link": "https://nazology.kusuguru.co.jp/archives/206335",
+      "pubDate": "2026-11-12T00:00:00.000Z",
+      "category": "大学・学会・研究",
+      "feedTitle": "Nazology",
+      "feedUrl": "https://nazology.net/",
+      "contentSnippet": "4枚のプロペラで空を飛び、1本の脚でぴょんと跳ねて進むロボットがあります。 その名は「ホップコプター」で、香港城市大学と香港科技大学の研究者たちが開発しました。 見た目はプロペラ4枚のドローンですが、バネの入った脚を1本だけ備えています。 お手本は、いつも飛び続けるのではなく、ぴょんぴょん跳ねて移動することの多い鳥たちです。 跳ねている間はほぼ落ちるにまかせ、プロペラは姿勢を整えたり勢いを補ったりするために短く回すだけなので、電池をあまり使いません。 開発者によれば、同じ大きさのドローンの10分の1のエネルギーで、かなり長い距離を進めるといいます。 ところが初代のロボットは、平らな地面なら跳ね…"
+    },
+    {
+      "id": "dfa778b1c90e2e36901ed6fcdc1e1e43e72aa65f",
+      "title": "CircuitPython 10.3.2 Released!",
+      "link": "https://blog.adafruit.com/2026/11/11/circuitpython-10-3-2-released/",
+      "pubDate": "2026-11-11T23:32:34.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "From the GitHub release page: This is CircuitPython 10.3.2, a bugfix revision of CircuitPython, and is a new stable release. Highlights of changes since 10.3.1 Remove compromised certificates from root certificates bundle. Download from circuitpython.org Firmware downloads are available from the dow…"
+    },
+    {
+      "id": "bf57a2b9c570b8db4124e41595f56f390de0eb20",
+      "title": "Claudeに表計算「Sheets」とホワイトボード追加　Anthropicがオフィス系機能を拡充",
+      "link": "https://www.techno-edge.net/article/2026/11/12/5708.html",
+      "pubDate": "2026-11-11T23:23:32.000Z",
+      "category": "ITニュース",
+      "feedTitle": "techno-edge",
+      "feedUrl": "https://www.techno-edge.net/",
+      "contentSnippet": "ClaudeにSheetsとWhiteboardsを追加、DashboardsをDataへ改称、全有料プランで表計算・ホワイトボード・データ機能を拡充"
+    },
+    {
+      "id": "483f22f600a7f1b2931396885d04e530a4b5029b",
+      "title": "トランプコイン、史上最安値を記録。今後もかなり厳しそう",
+      "link": "https://www.gizmodo.jp/article/trump-coins-hit-all-time-lows-as-elizabeth-warren-targets-trump-familys-crypto-empire/",
+      "pubDate": "2026-11-11T23:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Gizmodo Japan",
+      "feedUrl": "https://www.gizmodo.jp/",
+      "contentSnippet": "米中間選挙での民主党の勝利により、トランプコインをはじめとするトランプ一族の暗号資産事業が直面する政治的リスクと今後の見通しを解説します。"
+    },
+    {
+      "id": "2f5ce2f184a1301bbfa8bb4e61859dfb7de401c8",
+      "title": "How to Make Sure an 'Onion' Site on the Dark Web Is Legitimate",
+      "link": "https://lifehacker.com/tech/how-to-make-sure-onion-site-on-dark-web-is-legitimate?utm_medium=RSS",
+      "pubDate": "2026-11-11T23:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Lifehacker",
+      "feedUrl": "http://lifehacker.com/",
+      "contentSnippet": "Tor Browser has built-in signals that tell you if an onion site is legit."
+    },
+    {
+      "id": "18e14b8d9b371971edd6cf4eb767f4760e32af17",
+      "title": "「シュノーケルを持つカタツムリ」の新種を3種発見",
+      "link": "https://nazology.kusuguru.co.jp/archives/206395",
+      "pubDate": "2026-11-11T22:30:00.000Z",
+      "category": "大学・学会・研究",
+      "feedTitle": "Nazology",
+      "feedUrl": "https://nazology.net/",
+      "contentSnippet": "タイ北部や東北部の石灰岩の山には、落ち葉の下で暮らす小さなカタツムリがいます。 その殻の口のすぐそばからは、管が1本、後ろ向きに突き出しています。 潜水用のシュノーケルをくわえているような姿です。 このなかまは「シュノーケル・スネイル」と呼ばれています。 では、このなかまのカタツムリを研究チームが新たに集め、殻の形と遺伝子の両方から調べると、何が見えてくるのでしょうか？ 研究の詳細は、2026年11月3日付で学術誌『ZooKeys』に掲載されました。"
+    },
+    {
+      "id": "0be209a8d94db88b0ce1ce8cd88e750fe084cb5f",
+      "title": "Why do small components stand up after soldering?",
+      "link": "https://blog.adafruit.com/2026/11/11/why-do-small-components-stand-up-after-soldering/",
+      "pubDate": "2026-11-11T22:25:43.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "JLCPCB has a short video on tombstoning, the defect where a small chip resistor or capacitor stands up on one end during reflow soldering instead of lying flat on its two pads. The cause is uneven wetting and heating. If one end of the part melts and wets its solder before the other, the surface […]"
+    },
+    {
+      "id": "2725cdd8e332e329c31879c69bf29e991dd53b2e",
+      "title": "外国語習得能が高い人の脳は外国語音をすぐには「言葉」として処理しない　東北大学などが脳活動を測定",
+      "link": "https://univ-journal.jp/1003136/",
+      "pubDate": "2026-11-11T22:00:53.000Z",
+      "category": "大学・学会・研究",
+      "feedTitle": "大学ジャーナルオンライン",
+      "feedUrl": "https://univ-journal.jp/",
+      "contentSnippet": "東北大学、ユニバーシティ・カレッジ・ロンドン（UCL）、早稲田大学による国際共同研究チームは、耳の良い学習者は外国語音を聞いても、すぐには「言葉」として処理せず、音響的特徴そのものを分析している可能性を初めて示した。 外国語の発音を学ぶとき、同じように練習しても上達の速さには大きな個人差がある。そこには、微細な音響情報の違いを聞き分ける基礎的な耳の良さ、すなわち「聴覚精度」が関係している可能性がある。しかし、耳の良さによって外国語音を処理する脳の使い方の違いは不明だった。 そこで研究グループは、聴覚能力の高い学習者と低い学習者である日本人大学生に、機能的磁気共鳴画像法（fMRI）スキャナーの中…"
+    },
+    {
+      "id": "dec53af394f08987fc2f9b5fd4943d34df7a2a1f",
+      "title": "Outlook.comがDMARC認証を受けていないドメインからのメールを拒否",
+      "link": "https://gigazine.net/news/20261112-outlook-rejecting-email-without-dmarc/",
+      "pubDate": "2026-11-11T22:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "DMARCレコードを公開していないドメインからのメールが一部拒否される事象が発生しました。Microsoftからの公式発表がないまま問題が発生したことから、多くのユーザーや企業に混乱を招きました。 続きを読む..."
+    },
+    {
+      "id": "b70cfbf1ac839839f2617f213a83b19041c43b4b",
+      "title": "テスト中の「ホワイトハッカーAI」が脱走。実在する会社の顧客データを盗み出してしまう",
+      "link": "https://www.gizmodo.jp/article/2611-white-hacker-ai-data-breach/",
+      "pubDate": "2026-11-11T22:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Gizmodo Japan",
+      "feedUrl": "https://www.gizmodo.jp/",
+      "contentSnippet": "セキュリティ実験中のホワイトハッカーAIがテスト環境を脱走し、実在企業の社内システムから顧客データを持ち出した事件の詳細を解説します。"
+    },
+    {
+      "id": "4382678b4033aa54936888bd2e53e7e86205f0da",
+      "title": "These Are the Best Early Black Friday Deals on Samsung Devices",
+      "link": "https://lifehacker.com/tech/these-are-the-best-early-black-friday-deals-on-samsung-devices?utm_medium=RSS",
+      "pubDate": "2026-11-11T22:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Lifehacker",
+      "feedUrl": "http://lifehacker.com/",
+      "contentSnippet": "Samsung's early Black Friday sales are already live."
+    },
+    {
+      "id": "96905c8bf97c47c735ec8d367f5dd8e06d5accab",
+      "title": "The Python on Microcontrollers Newsletter: subscribe for free",
+      "link": "https://blog.adafruit.com/2026/11/11/the-python-on-microcontrollers-newsletter-subscribe-for-free-11-11-2/",
+      "pubDate": "2026-11-11T21:52:46.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "The Python for Microcontrollers Newsletter is the place for the latest news involving Python on hardware (microcontrollers AND single board computers like Raspberry Pi). This ad-free, spam-free weekly email is filled with CircuitPython, MicroPython, and Python information that you may have missed, a…"
+    },
+    {
+      "id": "1571fbcaa6a9d04ae8ed01b90952873ca388c335",
+      "title": "An auto-driving ball-wheeled omni-directional car",
+      "link": "https://blog.adafruit.com/2026/11/11/an-auto-driving-ball-wheeled-omni-directional-car/",
+      "pubDate": "2026-11-11T21:49:06.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "James Bruton built an auto-driving car with ball wheels that can move in every direction, and showed it on his YouTube channel. An Arduino Ventuno Q runs the robot’s software. The Ventuno Q runs ROS2, the open source robot operating system, along with the Nav2 navigation stack. Two RPLIDAR S3 laser …"
+    },
+    {
+      "id": "6b6720af64f1db4e4f303e364a97af05ee0d1b3b",
+      "title": "TikTokのByteDance、「Muse風」AIエージェント開発中？数週間以内に発表するとのうわさ",
+      "link": "https://www.techno-edge.net/article/2026/11/12/5707.html",
+      "pubDate": "2026-11-11T21:45:03.000Z",
+      "category": "ITニュース",
+      "feedTitle": "techno-edge",
+      "feedUrl": "https://www.techno-edge.net/",
+      "contentSnippet": "ショート動画SNSのTikTokを運営するByteDanceが、Metaの「Muse」に対抗するAIエージェントを「数週間以内」に発表する準備を進めていると、Bloombergが報じました。名称や具体的な仕様は不明であるものの、Museと「同様の役割を果たす」ものになるとされています。"
+    },
+    {
+      "id": "a730a4911851aacf5b581fcf1224c7766cc2cbd2",
+      "title": "The Secret of Monkey Island: all 13 versions side by side",
+      "link": "https://blog.adafruit.com/2026/11/11/the-secret-of-monkey-island-all-13-versions-side-by-side/",
+      "pubDate": "2026-11-11T21:38:18.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Paninosoffline, a two-brother team, has put together a web viewer at monkeyisland.pages.dev that shows all 13 versions of The Secret of Monkey Island side by side. The same twelve moments from the game appear in every version, with the same framing, so switching between them changes the machine and …"
+    },
+    {
+      "id": "271539e4267cad9c422238ba5fe60354b402a046",
+      "title": "The Arduino Nano family is now XL",
+      "link": "https://blog.adafruit.com/2026/11/11/the-arduino-nano-family-is-now-xl/",
+      "pubDate": "2026-11-11T21:34:14.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "The Arduino Team announced two new boards on the Arduino Blog at electronica 2026 in Munich: the Nano XL Link and the Nano XL Link Connector Carrier. Both aim at industrial, home and building automation work. The Nano XL Link keeps the compact Nano form factor and familiar pinout, and adds three fie…"
+    },
+    {
+      "id": "ca362a184a3edcdd15966059fe9121462b0f158e",
+      "title": "Tim Peters, Python user #2 and prolific contributor, has died",
+      "link": "https://blog.adafruit.com/2026/11/11/tim-peters-python-user-2-and-prolific-contributor-has-died/",
+      "pubDate": "2026-11-11T21:31:35.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Tim Peters, one of the earliest contributors to Python, died on July 15, 2026, as announced on discuss.python.org. He found Python soon after its first release and became the second real user of the language, after its creator. His first contribution was an argument that Python should support mixed …"
+    },
+    {
+      "id": "9381e56a521cdff23816d9c9a5b7145b84880677",
+      "title": "OpenAI、四半期売上高が初の100億ドル突破、年換算500億ドルに。企業向けAIが牽引",
+      "link": "https://www.techno-edge.net/article/2026/11/12/5706.html",
+      "pubDate": "2026-11-11T21:30:02.000Z",
+      "category": "ITニュース",
+      "feedTitle": "techno-edge",
+      "feedUrl": "https://www.techno-edge.net/",
+      "contentSnippet": "OpenAIの2026年第3四半期（7～9月）売上高が、初めて100億ドルを突破したことが明らかになりました。これは前四半期比で約50％の増収で、直近の業績を年換算した売上高のランレートは約500億ドルに達しているとしています。"
+    },
+    {
+      "id": "46989f211f34101509e636de0f0496635a99478b",
+      "title": "10 Hacks Every Hulu User Should Know",
+      "link": "https://lifehacker.com/entertainment/10-hacks-every-hulu-user-should-know?utm_medium=RSS",
+      "pubDate": "2026-11-11T21:30:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Lifehacker",
+      "feedUrl": "http://lifehacker.com/",
+      "contentSnippet": "Get the most out of your streaming and live TV subscription."
+    },
+    {
+      "id": "e92c848376575897b718c60eb263d439d165d160",
+      "title": "A Google engineer points 48 AI agents at NASA Lidar and finds an unmapped Maya pyramid",
+      "link": "https://blog.adafruit.com/2026/11/11/a-google-engineer-points-48-ai-agents-at-nasa-lidar-and-finds-an-unmapped-maya-pyramid/",
+      "pubDate": "2026-11-11T21:27:39.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "A software engineer, writing at pietromiotti.com, used AI agents to go through public NASA lidar data and turn up a Maya site in Mexico that wasn’t in the Mexican government’s register. Lidar fires laser pulses through gaps in the jungle canopy and maps the ground underneath, so structures hidden by…"
+    },
+    {
+      "id": "0f350e3773faffde3d1d8d454d345eec0f5978bd",
+      "title": "Hand-assembly of the “hopefully final” FeatherS31D prototype",
+      "link": "https://blog.adafruit.com/2026/11/11/hand-assembly-of-the-hopefully-final-feathers31d-prototype/",
+      "pubDate": "2026-11-11T21:19:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Unexpected Maker posted on X that he’s hand-assembling what he hopes is the final prototype of the FeatherS31D, a Feather-format development board, on a livestream. The new revision adds switchable USB. Hand-assembly means placing the parts on the bare board by hand and reflowing them, so the stream…"
+    },
+    {
+      "id": "533bf199d3aee5625dae85dbb148aed877fb1a01",
+      "title": "An unofficial Fritzing desktop application for Apple Silicon",
+      "link": "https://blog.adafruit.com/2026/11/11/an-unofficial-fritzing-desktop-application-for-apple-silicon/",
+      "pubDate": "2026-11-11T21:14:15.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Frederick Blais has published an unofficial Apple Silicon build of Fritzing 1.0.8 on GitHub. Fritzing is the open source tool for drawing breadboard layouts, schematics and PCBs. This release is a native ARM64 build for Macs with M-series chips, packaged as a DMG that’s dragged into the Applications…"
+    },
+    {
+      "id": "4b3a7f4024e2d77e4c45d9a8e7dd2384638a8855",
+      "title": "Use the Wii Balance Board as an open source Bluetooth game controller",
+      "link": "https://blog.adafruit.com/2026/11/11/use-the-wii-balance-board-as-an-open-source-bluetooth-game-controller/",
+      "pubDate": "2026-11-11T21:05:51.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Jacek Fedoryński has published wii-balance-board-hid-transmitter on GitHub, a Windows app that turns a Wii Balance Board into a gamepad. Leaning left and right or forward and back can drive an analog stick axis or the analog triggers, and can press buttons once the lean passes a set threshold. The b…"
+    },
+    {
+      "id": "002695f4918e7e79366310d944ff9c5f2912bf24",
+      "title": "SpudCell, the synthetic cell",
+      "link": "https://blog.adafruit.com/2026/11/11/spudcell-the-synthetic-cell/",
+      "pubDate": "2026-11-11T21:00:53.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Fluorescent microscopy of SpudCell – a synthetic cell assembled entirely from non-living chemical components – undergoing division. Credit: Kate Adamala, Adamala Lab via University of Minnesota Twin Cities Associate Professors at University of Minnesota’s College of Biological Sciences, Kate Adamala…"
+    },
+    {
+      "id": "b5b86be97d54c6c9ab1b8d38890fe31ddcd48ea9",
+      "title": "Modular, 3D Printed Train Whistles For Everyone",
+      "link": "https://hackaday.com/2026/11/11/modular-3d-printed-train-whistles-for-everyone/",
+      "pubDate": "2026-11-11T21:00:39.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Hackaday",
+      "feedUrl": "https://hackaday.com/",
+      "contentSnippet": "If the word “train” didn’t grab your attention, you’re probably not the target audience for this project. If it did, then there is no need to explain why [AeroKoi] has …read more"
+    },
+    {
+      "id": "adaabd420602c0114fd3e24972ed5368a05fca58",
+      "title": "iPhone DuoはiPhone 18 Proと同じチップでもGPU性能に差、発熱や電池持ちなどのベンチマーク結果が公開される",
+      "link": "https://gigazine.net/news/20261112-iphone-duo-benchmark-battery/",
+      "pubDate": "2026-11-11T21:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "iPhone 18 ProやSamsung製スマートフォンと比較した結果を公開しました。CPUやGPUの処理性能に加えて高負荷時の発熱と性能低下、使用する画面によるバッテリー持続時間の違いも調べています。 続きを読む..."
+    },
+    {
+      "id": "3ef7a4d9544aaa9f0bb1b561e1a94e0e3d8358f1",
+      "title": "10 Hacks Every Reddit User Should Know",
+      "link": "https://lifehacker.com/tech/10-hacks-every-reddit-user-should-know?utm_medium=RSS",
+      "pubDate": "2026-11-11T21:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Lifehacker",
+      "feedUrl": "http://lifehacker.com/",
+      "contentSnippet": "These hacks help you search, post, and lurk on Reddit."
+    },
+    {
+      "id": "ca341947bb9ad6ef0b14fbba6cc038b2adff2f90",
+      "title": "Startup gives new life to salvage Teslas by turning them into simple vans and trucks",
+      "link": "https://blog.adafruit.com/2026/11/11/startup-gives-new-life-to-salvage-teslas-by-turning-them-into-simple-vans-and-trucks/",
+      "pubDate": "2026-11-11T20:58:15.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Adam Ismail writes at The Drive about Hoffman, a small company building new vehicles out of parts pulled from used Teslas. The company previously did EV conversions for DeLoreans. Now it takes steering wheels, seats, screens, airbags, and the computers and software from Model 3 and Model Y donor car…"
+    },
+    {
+      "id": "3d9032a8e0f13b1ea841309761d2107f44a3dfce",
+      "title": "Caltech robot makes history by assembling the first structure in orbit without astronauts",
+      "link": "https://blog.adafruit.com/2026/11/11/caltech-robot-makes-history-by-assembling-the-first-structure-in-orbit-without-astronauts/",
+      "pubDate": "2026-11-11T20:53:02.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Zo Ahmed writes at TechSpot about ASTRA, a Caltech robot that built part of an antenna frame in low Earth orbit from loose struts and joints. Its creators say it’s the first structure assembled autonomously in space. The robot takes up about a cubic meter and carries a gantry arm, motorized parts di…"
+    },
+    {
+      "id": "fa78778f1825506f4db97ce401ebfc8c2c85f1ae",
+      "title": "280 MHz STMicro STM32G5 Cortex-M33 mixed-signal MCU targets digital power and motor control applications",
+      "link": "https://blog.adafruit.com/2026/11/11/280-mhz-stmicro-stm32g5-cortex-m33-mixed-signal-mcu-targets-digital-power-and-motor-control-applications/",
+      "pubDate": "2026-11-11T20:46:15.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Debashis Das writes on CNX Software about STMicroelectronics’ new STM32G5 series, a family of 280 MHz Arm Cortex-M33 mixed-signal microcontrollers aimed at industrial power supplies, photovoltaic inverters, EV chargers, robotics and motor control. The chips have up to 512KB flash and 112KB of SRAM w…"
+    },
+    {
+      "id": "941704dabb93937fedc8ac80286038e3fcd590ad",
+      "title": "College student develops LEGO-like, 3D-printed moon bricks",
+      "link": "https://blog.adafruit.com/2026/11/11/college-student-develops-lego-like-3d-printed-moon-bricks/",
+      "pubDate": "2026-11-11T20:41:59.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Andrew Paul, writing for Popular Science, covers a University of Arkansas project that makes interlocking bricks out of moon dust alone. Cole McCallum, then an undergraduate, worked with mechanical engineer Wan Shou on the research, published in the journal NPJ Advanced Manufacturing. Lunar regolith…"
+    },
+    {
+      "id": "f92a22d09faa52614e2933c2be4b38180c3658de",
+      "title": "Inside a cockpit voice recorder and flight data recorder",
+      "link": "https://blog.adafruit.com/2026/11/11/inside-a-cockpit-voice-recorder-and-flight-data-recorder/",
+      "pubDate": "2026-11-11T20:36:35.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Fahad Naim posted on X a look inside a cockpit voice recorder (CVR) and a flight data recorder (FDR) pulled from a retired aircraft, taken apart layer by layer. Inside the outer housing is the crash-survivable memory unit. Opening that shows a black thermal insulation lining, the material that prote…"
+    },
+    {
+      "id": "a46be234eb639515fb1e569746dc92d0e21b532b",
+      "title": "The Apple Watch's New 'Siri Recap' Feature Is Even Creepier Than I Expected",
+      "link": "https://lifehacker.com/tech/apple-watch-new-siri-recap-feature?utm_medium=RSS",
+      "pubDate": "2026-11-11T20:30:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Lifehacker",
+      "feedUrl": "http://lifehacker.com/",
+      "contentSnippet": "Apple Watch's new Audio Intelligence feature is kind of useful—but also, extremely unsettling."
+    },
+    {
+      "id": "d3d4e9f416c21ab97f7976ee23a3809d60ec16f9",
+      "title": "The pollycrisis in London",
+      "link": "https://blog.adafruit.com/2026/11/11/the-pollycrisis-in-london/",
+      "pubDate": "2026-11-11T20:14:14.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "The Baffler has a long piece on the ring-necked parakeet, the bright green parrot that now roosts by the thousand in London. Hither Green Cemetery holds one of the city’s largest roosts, where the birds pour into a line of poplars at dusk. They’re an admixture of two Asian subspecies, mostly the bor…"
+    },
+    {
+      "id": "2edf30ac861ad9ebcec538ac903ef4a8f857274f",
+      "title": "Google gooses Python AI performance by… removing Python",
+      "link": "https://blog.adafruit.com/2026/11/11/google-gooses-python-ai-performance-by-removing-python/",
+      "pubDate": "2026-11-11T20:08:22.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Joab Jackson at The Register reports that Google has open sourced XSE, the XLA Serving Engine, a C++ runtime for serving machine learning models without a Python interpreter in the path. It’s the newest piece of the OpenXLA Project, which compiles machine learning math into native code for different…"
+    },
+    {
+      "id": "dfe7c19310bc5674adcddf96738e94d337a40877",
+      "title": "Doom8bit – DOOM ported to Atari 8-bit",
+      "link": "https://blog.adafruit.com/2026/11/11/doom8bit-doom-ported-to-atari-8-bit/",
+      "pubDate": "2026-11-11T20:05:19.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Doom8bit is a port of the 1993 shareware release of DOOM to 1980s 8-bit computers, starting with the Atari 8-bit. It’s a downloadable game posted on itch.io. The port is built on the same developer’s earlier Quake port for 8-bit machines. Rooms and objects are drawn as wireframes, and the enemies ar…"
+    },
+    {
+      "id": "a5bedf611029de5420ac6e15ed21dbb1662a63c0",
+      "title": "Smart home devices should work without the internet",
+      "link": "https://blog.adafruit.com/2026/11/11/smart-home-devices-should-work-without-the-internet/",
+      "pubDate": "2026-11-11T19:51:40.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "skittleson, writing at Do Code That Matters, collected about ten years of home automation rules and two conference talks into one post. Rule one: if the internet goes down, the lights still turn on. That came from a Nest integration that worked until Google changed the API. The core of the house run…"
+    },
+    {
+      "id": "b5f6612211710242296fbd35bb12ace9174cd531",
+      "title": "Transparent surfboard uses carbon-fiber ribs and clear panels to reveal the ocean below",
+      "link": "https://blog.adafruit.com/2026/11/11/transparent-surfboard-uses-carbon-fiber-ribs-and-clear-panels-to-reveal-the-ocean-below/",
+      "pubDate": "2026-11-11T19:45:41.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Industrial designer Igor Dzukovski built a surfboard prototype called Tidal Wave, published on designboom, that lets the rider see the water underneath. Instead of printed deck graphics, the board uses clear panels set into an exposed carbon-fiber skeleton, so the light, depth and currents below sho…"
+    },
+    {
+      "id": "8483d6f58b7142c09bfe699518cdd984ee2d131b",
+      "title": "Print & Place: adding embedded electronics while FDM printing",
+      "link": "https://blog.adafruit.com/2026/11/11/print-place-adding-embedded-electronics-while-fdm-printing/",
+      "pubDate": "2026-11-11T19:37:56.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Maya Posch writes at Hackaday about Print & Place, a method from Oliver Child and colleagues for embedding electronic parts into a 3D print while the print is still running. It works on a regular FDM printer without modifications, and it doesn’t need a custom tool head. The trick is the thermoplasti…"
+    },
+    {
+      "id": "0356e68926acad7197907992fd709079c304a01f",
+      "title": "Scientists check their work and confirm it with update on iconic black hole image",
+      "link": "https://blog.adafruit.com/2026/11/11/scientists-check-their-work-and-confirm-it-with-update-on-iconic-black-hole-image/",
+      "pubDate": "2026-11-11T19:33:30.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Lindsay Clark at The Register reports that four Australian researchers have independently confirmed the 2019 Event Horizon Telescope image of the black hole M87, the orange ring that made front pages around the world. The original image came from hundreds of scientists combining data from eight tele…"
+    },
+    {
+      "id": "ec325916856d7177b88bdf0b7189bdfaa5b752d8",
+      "title": "10 Movies Like ‘Interstellar’ You Should Watch Next",
+      "link": "https://lifehacker.com/entertainment/best-movies-like-interstellar?utm_medium=RSS",
+      "pubDate": "2026-11-11T19:30:22.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Lifehacker",
+      "feedUrl": "http://lifehacker.com/",
+      "contentSnippet": "In case you need more emotionally resonant stories about desperate missions into space to save humanity."
+    },
+    {
+      "id": "7bdea05b2887aba08f174b6b99e84f0c5235b76a",
+      "title": "LEGO® building instructions over time",
+      "link": "https://blog.adafruit.com/2026/11/11/lego-building-instructions-over-time/",
+      "pubDate": "2026-11-11T19:22:48.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "LEGO’s own history site has posted a look at how its building instructions were made, from 1955 to today. Before that, boxes of plastic bricks only had drawings on the packaging for inspiration, plus an idea book first published in 1955. The first simple instructions came with the System in Play tow…"
+    },
+    {
+      "id": "dc273ae60aa3973d50090a4c1c03a0432033777a",
+      "title": "Wireless LED Apparition Intelligence Spirit Board #LED Pixels #AdafruitLearningSystem @Adafruit",
+      "link": "https://blog.adafruit.com/2026/11/11/wireless-led-apparition-intelligence-spirit-board-led-pixels-adafruitlearningsystem-adafruit/",
+      "pubDate": "2026-11-11T18:53:51.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Check out the latest tutorial from Erin St Blaine: make a spooky Spirit Board with wireless LEDs that spells out a secret message. The magic comes from a 3.3v induction coil hidden inside the planchette, and small wireless inductive LEDs embedded in the board. The board appears to light up with no w…"
+    },
+    {
+      "id": "f4b1f2721a479532384586a5456e9c0aece76d78",
+      "title": "NEW PRODUCT – Adafruit MCP2222 Breakout – General Purpose USB to GPIO/SPI/I2C – Stemma QT / Qwiic",
+      "link": "https://blog.adafruit.com/2026/11/11/new-product-adafruit-mcp2222-breakout-general-purpose-usb-to-gpio-spi-i2c-stemma-qt-qwiic/",
+      "pubDate": "2026-11-11T18:50:08.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "NEW PRODUCT – Adafruit MCP2222 Breakout – General Purpose USB to GPIO/SPI/I2C – Stemma QT / Qwiic __________________________________________________________________________________________________ Wouldn’t it be cool to drive a tiny OLED display, read a color sensor, or even just flash some LEDs dir…"
+    },
+    {
+      "id": "f8797af458ee7cc9a09980a585dd0ae9be1dbc11",
+      "title": "Garmin Cyclists Can Now Make Themselves Appear on Waze in Real Time",
+      "link": "https://lifehacker.com/health/garmin-cyclists-can-now-show-up-on-waze?utm_medium=RSS",
+      "pubDate": "2026-11-11T18:30:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Lifehacker",
+      "feedUrl": "http://lifehacker.com/",
+      "contentSnippet": "Drivers can see you as a little cyclist icon moving along the road."
+    },
+    {
+      "id": "d91ee79d1c5afeb49e5ac05e9ac48fd16dc92ae0",
+      "title": "New Learn Guide: ESP-SDR on Metro ESP32-P4 #Hacks #AdafruitLearningSystem @Adafruit",
+      "link": "https://blog.adafruit.com/2026/11/11/new-learn-guide-esp-sdr-on-metro-esp32-p4-hacks-adafruitlearningsystem-adafruit/",
+      "pubDate": "2026-11-11T18:24:38.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "The ESP-SDR project published a way to interact with undocumented functionality in many ESP32 chips that allows reading raw I/Q data. I/Q stands for In-Phase and Quadrature. It’s a digitized arithmetic representation of radio signals captured over time. This page has a more detailed explanation of I…"
+    },
+    {
+      "id": "d906106c770ddcbf023ded8d535b7e7371dcb802",
+      "title": "CHIP 8: The Pong Game’s Afoot!",
+      "link": "https://hackaday.com/2026/11/11/chip-8-the-pong-games-afoot/",
+      "pubDate": "2026-11-11T18:00:12.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Hackaday",
+      "feedUrl": "https://hackaday.com/",
+      "contentSnippet": "Writing a computer game has always been hard. It is only the nature of the difficulty that changes. A modern game is as much about graphics, sound, and storytelling as …read more"
+    },
+    {
+      "id": "7ec023244c507badebc193cd300403e45e60a00c",
+      "title": "10 Google Privacy Hacks Everyone Should Know",
+      "link": "https://lifehacker.com/tech/google-privacy-hacks-everyone-should-know?utm_medium=RSS",
+      "pubDate": "2026-11-11T18:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Lifehacker",
+      "feedUrl": "http://lifehacker.com/",
+      "contentSnippet": "These hacks help reduce tracking and protect your Google account's data."
+    },
+    {
+      "id": "55581675745562456cec1bf25f687c54a985538b",
+      "title": "What to Expect From Best Buy's 2026 Black Friday and Cyber Monday Sales",
+      "link": "https://lifehacker.com/tech/what-to-know-about-best-buy-black-friday-2026-sales?utm_medium=RSS",
+      "pubDate": "2026-11-11T17:49:24.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Lifehacker",
+      "feedUrl": "http://lifehacker.com/",
+      "contentSnippet": "Best Buy has sales going all the way to Christmas."
+    },
+    {
+      "id": "4dd2d3795fed4943a5895a1d49095dc743485d44",
+      "title": "A DOOMed coffee machine",
+      "link": "https://blog.adafruit.com/2026/11/11/a-doomed-coffee-machine/",
+      "pubDate": "2026-11-11T17:28:58.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Somehow, seeing DOOM on things that were never meant to run DOOM never gets old. It’s probably hard to get further into the “never meant to run DOOM” weeds than a coffee maker, bu… The Spengler PSL50 machine Robin hacked is a smart device with a Linux computer inside. It’s meant to be a self-serve, …"
+    },
+    {
+      "id": "012d42a54d10b76fece2582e1be8f1bafc0bd0a3",
+      "title": "A simple 8085 computer",
+      "link": "https://blog.adafruit.com/2026/11/11/a-simple-8085-computer/",
+      "pubDate": "2026-11-11T17:16:28.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "mit41301 built a small 8-bit computer around the Intel 8085, documented on Hackster.io. It runs at 4.9MHz with 8kB of ROM and 8kB of RAM, and the whole thing is six ICs: the processor, the two memory chips, an octal latch, a decoder, and a tristate bidirectional driver for the single I/O port. Other…"
+    },
+    {
+      "id": "4230095225ba882a4740c8b7907e13e79d9f9fb9",
+      "title": "To thwart reverse engineering by agents, a dev proposes blinding them",
+      "link": "https://blog.adafruit.com/2026/11/11/to-thwart-reverse-engineering-by-agents-dev-proposes-blinding-them/",
+      "pubDate": "2026-11-11T17:13:53.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Thomas Claburn writes in The Register about Blind LLM Agents (BLA), a project from developer and student Timo Zhang that tries to make it harder for AI coding agents to reverse engineer shipped software. Zhang’s point is that older obfuscation, the practice of scrambling code so it’s hard to read, w…"
+    },
+    {
+      "id": "a30a0b315ea16bbe4edaffc366748f8f981b8b47",
+      "title": "A 9-foot-tall Game Boy Color plays all the classics",
+      "link": "https://blog.adafruit.com/2026/11/11/a-9-foot-tall-game-boy-color-plays-all-the-classics/",
+      "pubDate": "2026-11-11T17:11:19.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Mack DeGeurin writing for Popular Science covers a giant, playable Game Boy Color built by prop designer and mechanical engineer Paige Powell and engineer Nick Alvarez. The Pokémon-yellow build is over nine feet tall, weighs around 300 pounds, and took more than 1,500 hours at the Davis makerspace n…"
+    },
+    {
+      "id": "ac697286fd1b7c736bd546e4a2cb3cc6d1b5dd26",
+      "title": "Lifehacker's Pick for the Best TV to Gift in 2026 Isn't Actually a TV",
+      "link": "https://lifehacker.com/tech/holiday-office-hours-best-gift-tv-in-2026?utm_medium=RSS",
+      "pubDate": "2026-11-11T17:09:35.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Lifehacker",
+      "feedUrl": "http://lifehacker.com/",
+      "contentSnippet": "Put these shades on and cue up your favorite show."
+    },
+    {
+      "id": "260eb0d7b3d7bf8fc8551786b0540aaf7edc9c09",
+      "title": "Will it WLED: Govee Cone Tree",
+      "link": "https://blog.adafruit.com/2026/11/11/will-it-wled-govee-cone-tree/",
+      "pubDate": "2026-11-11T17:07:21.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Chris Maher’s “will it WLED” series on YouTube is up to episode 14, and this time the subject is the Govee Christmas Cone Tree light. WLED is open source firmware for addressable LED strips, run from a phone or a browser over WiFi. The question in these episodes is always the same: can an off-the-sh…"
+    },
+    {
+      "id": "1ed776fcbcf9b8c544f26eff30dda8790c2857e0",
+      "title": "What to know about this year’s UN climate talks",
+      "link": "https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/",
+      "pubDate": "2026-11-11T17:00:00.000Z",
+      "category": "大学・学会・研究",
+      "feedTitle": "MIT Technology Review",
+      "feedUrl": "https://www.technologyreview.com/",
+      "contentSnippet": "It’s that time of year again: Thousands of delegates, lobbyists, and journalists are gathered for the annual UN climate talks, taking place this time in Antalya, Turkey. COP31 officially kicked off on November 8, marking the beginning of negotiations on one of the biggest stages of the climate world…"
+    },
+    {
+      "id": "483c4e02925708bd566670c870ad5f6e8d9e3b96",
+      "title": "A RISC-V-only clang + lld for the CH32 Arduino core",
+      "link": "https://blog.adafruit.com/2026/11/11/a-risc-v-only-clang-lld-for-the-ch32-arduino-core/",
+      "pubDate": "2026-11-11T16:58:57.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "tanakamasayuki has published ch32rv-clang on GitHub, under the CH32 RISC-V User Group. It’s a RISC-V-only build of clang and the lld linker, made from an upstream LLVM release and packed as a single archive per host system. The point is the CH32 Arduino core, ArduinoCore-CH32RV, which can install it…"
+    },
+    {
+      "id": "e651f7acf2cfccdcdfc103375344dcf875a69629",
+      "title": "Beagleboard at electronica 2026 with Embedded Computing Design",
+      "link": "https://blog.adafruit.com/2026/11/11/beagleboard-at-electronica-2026-with-embedded-computing-design/",
+      "pubDate": "2026-11-11T16:49:38.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Embedded Computing Design posted a six minute interview from electronica 2026, where Ken Briodagh talks with Jason Kridner of Beagleboard. Kridner is one of the people behind the BeagleBone and BeagleBoard family of open hardware single board computers. The conversation covers microcontrollers, flex…"
+    },
+    {
+      "id": "c60cd36d4484f5c5bae24649f1f457001f4d8e35",
+      "title": "Microsoft fixes nearly 1,100 security vulnerabilities",
+      "link": "https://blog.adafruit.com/2026/11/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+      "pubDate": "2026-11-11T16:44:37.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Brian Krebs writes at Krebs on Security that Microsoft’s November Patch Tuesday fixes 1,093 security vulnerabilities in Windows and supported software. Of those, 63 are rated critical, meaning an attacker can take over a Windows machine with little or no help from the user. About half of the critica…"
+    },
+    {
+      "id": "bf255bfe30247046a1db8db52f96d97050926950",
+      "title": "'GTA 6' Runs Best on This Console",
+      "link": "https://lifehacker.com/tech/gta-6-runs-best-on-playstation-5-consoles?utm_medium=RSS",
+      "pubDate": "2026-11-11T16:32:51.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Lifehacker",
+      "feedUrl": "http://lifehacker.com/",
+      "contentSnippet": "Not all consoles play \"GTA 6\" equally."
+    },
+    {
+      "id": "0ef93ad7c0534601f17bd72fe237756ce5213268",
+      "title": "The Drawer Every Standing Desk Needs",
+      "link": "https://hackaday.com/2026/11/11/the-drawer-every-standing-desk-needs/",
+      "pubDate": "2026-11-11T16:30:11.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Hackaday",
+      "feedUrl": "https://hackaday.com/",
+      "contentSnippet": "Adjustable standing desks have had some ergonomic and health benefits for many people who would otherwise be sitting down all day, but those benefits come at a cost of a …read more"
+    },
+    {
+      "id": "477f145b05a5a718748a88a73d8d95dc28a6d659",
+      "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+      "link": "https://blog.adafruit.com/2026/11/11/claude-whiteboards-claude-sheets-and-claude-data/",
+      "pubDate": "2026-11-11T16:19:15.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "A post from claudeai on claude.com announces three additions to Claude: Whiteboards and Sheets in beta, plus Claude Dashboards becoming generally available under the name Claude Data. All three are on paid plans and work on web, desktop, and mobile. Whiteboards is a shared board a team can brainstor…"
+    },
+    {
+      "id": "c8504ced09e94cd46080a0177590d4525843e208",
+      "title": "Here's What We Know About Amazon's Black Friday and Cyber Monday 2026 Sales",
+      "link": "https://lifehacker.com/tech/what-to-know-about-amazon-black-friday-2026-sales?utm_medium=RSS",
+      "pubDate": "2026-11-11T16:18:22.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Lifehacker",
+      "feedUrl": "http://lifehacker.com/",
+      "contentSnippet": "What to expect for Black Friday and Cyber Monday."
+    },
+    {
+      "id": "9411b2d47a8a75615198ba55b8ff0525d66c2cb7",
+      "title": "LIVE! 3D Hangouts with Noe and Pedro",
+      "link": "https://blog.adafruit.com/2026/11/11/live-3d-hangouts-with-noe-and-pedro-92/",
+      "pubDate": "2026-11-11T16:00:32.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "3D Hangouts – Metro HomeView, Prototypes and Christmas Creeper https://www.youtube.com/live/0ZgEgsY5_x8 This week @adafruit Pedro is testing new code and builds of CircuitPython for the DIY HomeView project. Noe is prototyping parts for the Metro ESP32-P4. Checking out this week’s Timelapse Tuesday …"
+    },
+    {
+      "id": "18d4d40cfb358a07b4827b14aaa5450affe2fc7b",
+      "title": "Tests as data: ensuring AI-generated code does what we want",
+      "link": "https://martinfowler.com/articles/tests-as-data.html",
+      "pubDate": "2026-11-11T15:17:00.000Z",
+      "category": "ブログ",
+      "feedTitle": "Martin Fowler",
+      "feedUrl": "https://martinfowler.com/",
+      "contentSnippet": "Automated testing in the age of AI coding assistants is problematic: when AI agents write both production and test code, developers risk losing the assurance that automated tests protect against functional errors. Matteo Vaccari makes three claims: (1) when AI writes the code, developers become its …"
+    },
+    {
+      "id": "681d531bab6cd9c7561c36fa2e6ac54ec6723d77",
+      "title": "Silicon Graphics founded November 9, 1981",
+      "link": "https://blog.adafruit.com/2026/11/11/silicon-graphics-founded-november-9-1981/",
+      "pubDate": "2026-11-11T15:10:42.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Dave Farquhar marked the anniversary of Silicon Graphics on his blog at dfarq.homeip.net. SGI was founded November 9, 1981, and built Unix workstations around MIPS RISC processors and the IRIX operating system. Entry-level machines started around $4,000, and larger configurations ran to $45,000 or $…"
+    },
+    {
+      "id": "312065b5b7e60b6b5aa6207fcf83bcfa77ff41a6",
+      "title": "テストフレームワーク「Playwright」がBunを正式サポート。テストランナーの実行を可能に",
+      "link": "https://www.publickey1.jp/blog/26/playwrightbun.html",
+      "pubDate": "2026-11-11T15:07:35.000Z",
+      "category": "ブログ",
+      "feedTitle": "Publickey",
+      "feedUrl": "https://www.publickey1.jp/",
+      "contentSnippet": "Webアプリケーションのテストフレームワーク「Playwright」が、最新バージョンのv1.65.0で、Bunでのテストランナー実行を正式にサポートしました。 PlaywrightのテストランナーはこれまでNode.jsが用いられていました。今回、そのNode.jsに加えて、Bunでのテストランナーの実行を正式にサポートしました。 BunがTypeScriptをトランスパイルしてくれる GitHub上のPlaywrightリポジトリにはv1.65.0について以下のように説明……"
+    },
+    {
+      "id": "a698a1db8e23bf88733a53674fb265a35742f7b3",
+      "title": "AWS、AIエージェント向けに強力な隔離環境とネイティブなEC2性能を備えた軽量VM「AWS Nitro Sandboxes」提供開始",
+      "link": "https://www.publickey1.jp/blog/26/awsaiec2vmaws_nitro_sandboxes.html",
+      "pubDate": "2026-11-11T15:04:47.000Z",
+      "category": "ブログ",
+      "feedTitle": "Publickey",
+      "feedUrl": "https://www.publickey1.jp/",
+      "contentSnippet": "Amazon Web Services（AWS）は、Amazon EC2インスタンス上でほぼネイティブのEC2性能で動作しつつ、Nitroシステムハードウェアレベルのきわめて強力な隔離環境を備えた軽量な仮想マシン「AWS Nitro Sandbox」の提供開始を発表しました。 AIエージェントを用いたコーディングの普及により、コンテナなどの軽量な仮想環境でAIが生成した信頼できないコードを実行する機会が増加しています。 しかし一般的なコンテナ型仮想化はカーネルを共有しているな……"
+    },
+    {
+      "id": "9215fbc4d1f171e7f44c3f8c25f4c215d129ce9a",
+      "title": "Firefox 160 available with speech-to-text, MKV files with FLAC / MP3 / PCM audio",
+      "link": "https://blog.adafruit.com/2026/11/11/firefox-160-available-with-speech-to-text-mkv-files-with-flac-mp3-pcm-audio/",
+      "pubDate": "2026-11-11T15:02:52.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Michael Larabel writes at Phoronix that Firefox 160 is out. The release adds speech-to-text support in the browser, so spoken audio can be turned into text. It also widens media playback. Firefox 160 handles MKV files that carry FLAC, MP3 or PCM audio tracks, three formats the Matroska container is …"
+    },
+    {
+      "id": "257f8a8be5b2c3b68335c8d638bcb27b6e8ca94a",
+      "title": "ITエンジニアが選ぶ「ITエンジニア本大賞2027」投票スタート",
+      "link": "https://www.publickey1.jp/blog/26/itit2027.html",
+      "pubDate": "2026-11-11T15:01:02.000Z",
+      "category": "ブログ",
+      "feedTitle": "Publickey",
+      "feedUrl": "https://www.publickey1.jp/",
+      "contentSnippet": "翔泳社が毎年開催している「ITエンジニア本大賞」の今年の投票が開始されました。 「ITエンジニア本大賞2027」投票がスタート！ https://t.co/9elKdpCcVS 今年読んでよかったおすすめ本を投票してみてください— 技術評論社 販売促進部 (@gihyo_hansoku) November 5, 2026 「ITエンジニア本大賞」は、ITエンジニアがITエンジニアに読んでほしい技術書・ビジネス書を選ぶイベントです。 2014年からスタートし、今回が……"
+    },
+    {
+      "id": "382bb33695c3f38c623cbd820ee1d69796fdc78b",
+      "title": "EV Batteries Are Proving Hardier Than Expected",
+      "link": "https://hackaday.com/2026/11/11/ev-batteries-are-proving-hardier-than-expected/",
+      "pubDate": "2026-11-11T15:00:08.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Hackaday",
+      "feedUrl": "https://hackaday.com/",
+      "contentSnippet": "Batteries have a habit of quietly getting worse. Anyone who has nursed an old smartphone through its final years knows the routine—it leaves the house at 100% and is begging …read more"
+    },
+    {
+      "id": "08d5993880b991371a69045c8083468daea7d4a5",
+      "title": "In medieval Italy, a spider bite could send you into a dancing frenzy",
+      "link": "https://blog.adafruit.com/2026/11/11/in-medieval-italy-a-spider-bite-could-send-you-into-a-dancing-frenzy/",
+      "pubDate": "2026-11-11T14:55:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Laura Kiniry, writing for Popular Science, tells the story of tarantism, a phenomenon that ran through southern Italy from the 11th to the 17th century. People believed a bite from a large, hairy wolf spider brought on anxiety, trembling and uncontrollable movement. The cure was to sweat the venom o…"
+    },
+    {
+      "id": "80d119ebebfb3d8f980f02d83a19e3731a38dd6a",
+      "title": "Googlebooks get their first big update, freeing up 3GB to 6GB of RAM",
+      "link": "https://blog.adafruit.com/2026/11/11/googlebooks-get-their-first-big-update-freeing-up-3gb-to-6gb-of-ram/",
+      "pubDate": "2026-11-11T14:45:01.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Julio Franco at TechSpot writes that Google has pushed the first big software update for its Googlebook laptops, about a month after they went on sale. The main change frees up 3GB to 6GB of system RAM that the on-device AI features were holding onto. Google’s release notes just say memory usage for…"
+    },
+    {
+      "id": "fac54cc21249b4892c8cf73a2ba9cdadd0b3e48d",
+      "title": "Training post-WW2 economies process and quality control",
+      "link": "https://blog.adafruit.com/2026/11/11/training-post-ww2-economies-process-and-quality-control/",
+      "pubDate": "2026-11-11T14:40:30.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "W. Edwards Deming (1900 to 1993) trained as an electrical engineer, took graduate degrees in mathematics and physics, and built the sampling methods used in the 1940 U.S. Census. He’s better known for what he taught Japanese industry after World War II. Starting in 1950, he trained hundreds of engin…"
+    },
+    {
+      "id": "6e2952b0be8c552172145b60fe4efdb1b6fb9fae",
+      "title": "Driving a Sony car radio LCD display with Arduino",
+      "link": "https://blog.adafruit.com/2026/11/11/driving-a-sony-car-radio-lcd-display-with-arduino/",
+      "pubDate": "2026-11-11T14:33:41.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Jose Luis Monteiro has reverse engineered the LCD on the detachable front panel of a Sony CDX-A250 car radio and driven it with an Arduino, with the project written up on Open Electronics. The panel uses a SANYO LC75826W LCD driver, listed as IC901 in Sony’s service manual, and its serial lines come…"
+    },
+    {
+      "id": "9b56e34131857c386303721b3eff47676267f635",
+      "title": "Aura's Second E-Ink Picture Frame Is Much Improved, and Much Cheaper",
+      "link": "https://lifehacker.com/tech/aura-e-ink-picture-frame-review?utm_medium=RSS",
+      "pubDate": "2026-11-11T14:30:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Lifehacker",
+      "feedUrl": "http://lifehacker.com/",
+      "contentSnippet": "The new Aura Ink has more colors and better contrast than its predecessor, for fewer dollars."
+    },
+    {
+      "id": "a66d485550efdd59a87234e422df98c9255a67c3",
+      "title": "The 19 pins of an HDMI Type A connector",
+      "link": "https://blog.adafruit.com/2026/11/11/the-19-pins-of-an-hdmi-type-a-connector/",
+      "pubDate": "2026-11-11T14:28:12.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "JLCPCB posted a breakdown of the HDMI Type A connector on X, covering what the 19 pins are for and why that grouping shapes a board’s layout. The pins fall into a few signal groups. The TMDS pairs carry the video and audio data, and they’re differential, meaning the signal is split across two wires …"
+    },
+    {
+      "id": "32a47275c756f184b959d6a912bd8c4998fad9c0",
+      "title": "Gesture controls with only a camera",
+      "link": "https://blog.adafruit.com/2026/11/11/gesture-controls-with-only-a-camera/",
+      "pubDate": "2026-11-11T14:22:08.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "A 2002 paper in a Japanese graphics journal describes a system that reads a user’s fingertip and head movements with a CCD camera. The gestures take the place of a mouse and keyboard for controlling a personal computer. The camera is the only input device. Text entry works by drawing characters in t…"
+    },
+    {
+      "id": "ed5227b5adbfc234b3ea89e57b706cfd139d5e6c",
+      "title": "A browser serial console for ESP-IDF",
+      "link": "https://blog.adafruit.com/2026/11/11/a-browser-serial-console-for-esp-idf/",
+      "pubDate": "2026-11-11T14:14:26.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Adafruit Industries",
+      "feedUrl": "https://blog.adafruit.com/",
+      "contentSnippet": "Espressif Systems has released esp-idf-monitor-js, a serial console for ESP-IDF that runs in a browser. The page gets a Web Serial or WebUSB port, and the monitor speaks the same keyboard commands as the Python esp-idf-monitor. Ctrl+] exits, Ctrl+T opens the menu for reset, bootloader, flash, output…"
+    },
+    {
+      "id": "9fb689938a8e73022ea94d92428a0790a88152bb",
+      "title": "無料でWebサイト・DNS・AWS認証情報・クレカ・機密文書などにおとりを設置して不審な操作を検知できる「Canarytokens」、インストール不要でセルフホストにも対応",
+      "link": "https://gigazine.net/news/20261111-canarytokens/",
+      "pubDate": "2026-11-11T14:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "続きを読む..."
+    },
+    {
+      "id": "3f7bf9484791ab86ed71afb83cba62af4493a180",
+      "title": "可愛いからと送ったニコニコ絵文字。Andoridユーザーには、煽り倒しているように映っていた",
+      "link": "https://www.gizmodo.jp/article/emoji-difference-btw-iphone-android-smile/",
+      "pubDate": "2026-11-11T14:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Gizmodo Japan",
+      "feedUrl": "https://www.gizmodo.jp/",
+      "contentSnippet": "2025年3月27日の記事を編集して再掲載しています。iPhoneとAndroidを隔てる悲しき壁。絵文字って、開いたスマホによって見た目が微妙に違うんです。スマホの環境に合わせて表示されるので、iPhoneの画面で見えている絵文字、And…"
+    },
+    {
+      "id": "f9d39cb8c66cbf9d19b9370e54d58ab7c8d78d1b",
+      "title": "MacBooks, AirPods, iPads (and More) Are up to $250 Off in This Early Black Friday Sale",
+      "link": "https://lifehacker.com/tech/apple-macbooks-airpods-sales-early-black-friday-2026?utm_medium=RSS",
+      "pubDate": "2026-11-11T14:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Lifehacker",
+      "feedUrl": "http://lifehacker.com/",
+      "contentSnippet": "Discounts range from the AirPods Pro 3 for $199 and the 15-inch M5 MacBook Air for $1,299.99 to the M6 Mac mini for $949.99."
+    },
+    {
+      "id": "1c40348e545eba4982db3be7d41e0a8e43d88b63",
+      "title": "These Hisense Mini-LED TVs Are up to $1,200 Ahead of Black Friday",
+      "link": "https://lifehacker.com/tech/hisense-mini-led-u8qgtv-sale-early-black-friday-2026?utm_medium=RSS",
+      "pubDate": "2026-11-11T13:30:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Lifehacker",
+      "feedUrl": "http://lifehacker.com/",
+      "contentSnippet": "The entire Hisense U8QG Mini-LED TV lineup is discounted ahead of Black Friday, with prices starting at $800."
+    },
+    {
+      "id": "e5c6bcbd9c323178fc30ab797d5c2afea3d2091b",
+      "title": "The Download: preserving minds and weighing open AI risks",
+      "link": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/",
+      "pubDate": "2026-11-11T13:10:00.000Z",
+      "category": "大学・学会・研究",
+      "feedTitle": "MIT Technology Review",
+      "feedUrl": "https://www.technologyreview.com/",
+      "contentSnippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Six wild ideas for perpetuating your mind As we age, we forget most of what we’ve experienced, yet there’s still undeniable continuity: At 30, or 50, or 70, you w…"
+    },
+    {
+      "id": "53cea00b4460b95a9bdd603f961709c99efeee9b",
+      "title": "日本海溝の深海生物に「謎のカプセル」が付着。“未知の生物”の産卵かも",
+      "link": "https://www.gizmodo.jp/article/japan_trench_sea_spider_capsule/",
+      "pubDate": "2026-11-11T13:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Gizmodo Japan",
+      "feedUrl": "https://www.gizmodo.jp/",
+      "contentSnippet": "日本海溝の深海調査で新種のウミグモから謎のカプセルが発見されました。DNA解析により未知の生物による産卵の可能性が浮上した興味深い研究成果を分かりやすく解説します。"
+    },
+    {
+      "id": "a24c7b8d69e1993b8dba0bcf8854ef1d6044469c",
+      "title": "AdobeアプリをChatGPTやClaudeから動かせることが意味するもの",
+      "link": "https://www.gizmodo.jp/article/adobe-mcp-integration-chatgpt-claude/",
+      "pubDate": "2026-11-11T12:45:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Gizmodo Japan",
+      "feedUrl": "https://www.gizmodo.jp/",
+      "contentSnippet": "Adobe MAXで披露されたChatGPTやClaudeなど外部AIとAdobeアプリのMCP連携について解説します"
+    },
+    {
+      "id": "f77393579eadc2238b83bc90f47956cc7b348ef7",
+      "title": "爆発したのに何度も復活。113日ごとに超新星のように光る星、いったい何が起きている？",
+      "link": "https://www.gizmodo.jp/article/2611-at-2016blu-supernova-impostor/",
+      "pubDate": "2026-11-11T12:30:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Gizmodo Japan",
+      "feedUrl": "https://www.gizmodo.jp/",
+      "contentSnippet": "113日ごとに超新星爆発のように明るさを繰り返す不思議な星AT 2016blu。NASAが発表した、その周期的な発光現象の謎と周囲の天体に関する最新の観測成果を分かりやすく解説します。"
+    },
+    {
+      "id": "4fbefb7abb4d4a22657aa70ae070ce74c2e821b8",
+      "title": "Why Engineers are Forced to Create Junk Designs",
+      "link": "https://hackaday.com/2026/11/11/why-engineers-are-forced-to-create-junk-designs/",
+      "pubDate": "2026-11-11T12:00:45.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Hackaday",
+      "feedUrl": "https://hackaday.com/",
+      "contentSnippet": "It’s become a bit of a platitude to state that products were manufactured better in ‘the olden days’, but as [The Meandrous Engineer] covers in a recent video essay, the …read more"
+    },
+    {
+      "id": "23a9e13d515557f75d2ee86d110caa7b8e46d287",
+      "title": "AmazonがAIモデルの「Claude Sonnet 4.6」を独自開発の意志決定モデル「Strands Decider」に置き換えることで98％のコスト削減に成功",
+      "link": "https://gigazine.net/news/20261111-amazon-claude-sonnet-4-6-strands-decider/",
+      "pubDate": "2026-11-11T12:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "Claude Sonnet 4.6」を利用してきました。これを意思決定モデルの「Strands Decider」に置き換えることで、98％のコスト削減に成功したと報告しています。 続きを読む..."
+    },
+    {
+      "id": "453e66f798c0285f2895f0511c190470c4407034",
+      "title": "AIエージェント、手首にも登場。Metaの「Muse」がApple Watchに対応です",
+      "link": "https://www.gizmodo.jp/article/2611-muse-apple-watch-support/",
+      "pubDate": "2026-11-11T12:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Gizmodo Japan",
+      "feedUrl": "https://www.gizmodo.jp/",
+      "contentSnippet": "MetaのAIエージェントMuseがApple WatchとWear OSに対応しました。手首からワンタップで起動し、音声やテキストでタスクの指示や確認が可能になります。日本での利用方法やアップデート条件を解説します。"
+    },
+    {
+      "id": "c69f3ff010b750f0a014cd1512e48b3e843d0dde",
+      "title": "新しいAIが天気予報の「2週間の壁」を越えることに成功",
+      "link": "https://nazology.kusuguru.co.jp/archives/206189",
+      "pubDate": "2026-11-11T12:00:00.000Z",
+      "category": "大学・学会・研究",
+      "feedTitle": "Nazology",
+      "feedUrl": "https://nazology.net/",
+      "contentSnippet": "天気予報は、畑に種をまく時期、水や電気のやりくり、山火事や大雨への備えを決める手がかりになっています。 物理の計算とAIの進歩で、今では2週間先まで、かつてないほど正確に当たるようになりました。 ところが、その先になると話が変わります。 2週間を過ぎると、世界最高とされる予報でさえ、気温などで成績が大きく落ち込むのです。 過去の記録だけから「平年並み」を見込む単純な予報に負けることも、珍しくありません。 一方で、3〜4週間先は、寒波や洪水への警報が最も役に立つ時期でもあります。 今回、研究チームが目をつけたのは、予報そのものではなく、予報が繰り返す「外れ癖」でした。 外れ癖を直すだけで、この「…"
+    },
+    {
+      "id": "ac857f3a5324ffe3c343352cd3b10a89e612bc4f",
+      "title": "「黒いU.F.O.」「黒いカレーメシ」「黒いどん兵衛」試食レビュー、「背徳こそ正義！」とアピールする3品の味を確かめてみた",
+      "link": "https://gigazine.net/news/20261111-nissin-immoral-black/",
+      "pubDate": "2026-11-11T11:05:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "続きを読む..."
+    },
+    {
+      "id": "bd0d6ea1e3654b19909cf0c12c9f4b1ff2e9ff45",
+      "title": "音楽ユニット変態紳士クラブ、4年ぶりの新作EP発表　活動休止を経て再始動",
+      "link": "https://kai-you.net/article/97120",
+      "pubDate": "2026-11-11T11:01:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "KAI-YOU.net",
+      "feedUrl": "https://kai-you.net/",
+      "contentSnippet": "3人組音楽ユニット・変態紳士クラブが、新作EP『ZIP ROCK STAR 2』を11月25日（水）に配信リリースすると発表した。2017年にリリースされた1st EP『ZIP ROCK STAR』の続編にあたり、2022年4月のEP『舌打』以来4年ぶりとなる新作。あわせて、ジャケット写真とティザームービーも公開された。変態紳士クラブは2023年3月にグループとしての活動を休止。2026年10月に再始動を発表していた。約3年半の活動休止を経て再始動した変態紳士クラブ変態紳士クラブは、ラッパーのW..."
+    },
+    {
+      "id": "6453b692d230c7f19e1ff2100d479c460499264a",
+      "title": "ムキムキ写真に「偽物」と出し続けると若い男性の筋肉への満足が上昇",
+      "link": "https://nazology.kusuguru.co.jp/archives/207014",
+      "pubDate": "2026-11-11T11:00:31.000Z",
+      "category": "大学・学会・研究",
+      "feedTitle": "Nazology",
+      "feedUrl": "https://nazology.net/",
+      "contentSnippet": "オランダのマーストリヒト大学（Maastricht University）で行われた研究によって、18〜29歳の男性66人のうち、筋肉モデルの写真の直後に必ず「偽物」「人工的」といった言葉が出るパソコン作業を約8分間行ったグループでは、自分の筋肉の見た目への満足度を尋ねるアンケートの点数が、作業の直後に少し上がりました。 一方、同じ写真と同じ言葉をでたらめな組み合わせで見たグループの点数はほとんど変わらず、2つのグループの変わり方の違いは統計的に意味のあるものでした。 自分の筋肉に満足したいとき、まず思い浮かぶのは筋トレかもしれませんが、この作業で参加者がしたのは、画面に出た写真をクリックする…"
+    },
+    {
+      "id": "bf39a5acb88a010ae8882f5a41e06fa1200fd5c6",
+      "title": "2027年にも「超人的AI研究者(SAR)」が登場する可能性が高いとAI研究者らが予測、全ホワイトカラー業務の自動化AIも2028年までに登場か",
+      "link": "https://gigazine.net/news/20261111-superhuman-ai-researcher-2027/",
+      "pubDate": "2026-11-11T11:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "ダニエル・ココタイロ氏が率いる非営利研究団体のAI Futures Projectが、最高水準の人間の研究者を一掃するかもしれない「Superhuman AI Researcher(超人的AI研究者：SAR)」が2027年に登場する可能性が高いとの予測を発表しました。 続きを読む..."
+    },
+    {
+      "id": "51ea1fc3349a1b44ef276b464e5aa0f0277829d0",
+      "title": "データセンターのための送電網、費用の6割超は住民負担でした",
+      "link": "https://www.gizmodo.jp/article/data-center_grid_cost_residents/",
+      "pubDate": "2026-11-11T11:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Gizmodo Japan",
+      "feedUrl": "https://www.gizmodo.jp/",
+      "contentSnippet": "AI普及に伴うデータセンター増加で必要となる送電網整備費用の約6割を一般住民が負担している実態を解説します。"
+    },
+    {
+      "id": "0a9f1f4c56b862e95bc3c85381b455d227e19571",
+      "title": "伝説のブラスロックバンド「スペクトラム」の45年ぶりの新曲にAI技術で協力しています（CloseBox）",
+      "link": "https://www.techno-edge.net/article/2026/11/11/5705.html",
+      "pubDate": "2026-11-11T10:58:40.000Z",
+      "category": "ITニュース",
+      "feedTitle": "techno-edge",
+      "feedUrl": "https://www.techno-edge.net/",
+      "contentSnippet": "2025年5月27日、テクノエッジ編集部宛に一通のメールが届きました。筆者が出演したテレビ番組を見て、コンタクトを取りたいというのです。送り主は新田一郎さん。"
+    },
+    {
+      "id": "cc8fc2d43c06b044873ed4c4b74a7c2e3bcb332d",
+      "title": "〈物語〉シリーズ×秘密結社holoXのコラボ展示「X物語」 シャフト描き下ろしビジュアルを公開",
+      "link": "https://kai-you.net/article/97125",
+      "pubDate": "2026-11-11T10:49:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "KAI-YOU.net",
+      "feedUrl": "https://kai-you.net/",
+      "contentSnippet": "アニメ「〈物語〉シリーズ」と、ホロライブ所属のVTuberユニット・秘密結社holoXによる展示「X物語 -バツモノガタリ-」のキービジュアルが、11月11日（水）に公開された。ビジュアルは、アニメ「〈物語〉シリーズ」の制作を手がけるアニメーションスタジオ・シャフトによる描き下ろし。「〈物語〉シリーズ」のキャラクターとholoXのタレント、計13人が共演している。また、「〈物語〉シリーズ」のエンディングイラストを手がけるウエダハジメさんと、秘密結社holoXのキービジュアルを制作した久坂んむりさ..."
+    },
+    {
+      "id": "8b90c214fbc22694a43fff201929ed462dc6bf6f",
+      "title": "サイバートラック生産終了についてイーロン・マスクが「売れ行きは好調だが利益の大きいサイバーキャブを優先した」と反論",
+      "link": "https://gigazine.net/news/20261111-elon-musk-cybertruck/",
+      "pubDate": "2026-11-11T10:45:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "続きを読む..."
+    },
+    {
+      "id": "d55270931c23e3d963d0e95b8bba2ad368980c72",
+      "title": "おまたせAndroidユーザー。「Google Pixel Tag」が日本でも発売",
+      "link": "https://www.gizmodo.jp/article/google-pixel-tag-release-japan/",
+      "pubDate": "2026-11-11T10:35:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Gizmodo Japan",
+      "feedUrl": "https://www.gizmodo.jp/",
+      "contentSnippet": "Googleの忘れ物防止タグGoogle Pixel Tagが日本で発売。Androidの巨大なネットワークを活用し、1m単位で探し物を誘導。価格や機能、スペックを詳しく解説します。"
+    },
+    {
+      "id": "e4287d54a70dd811fbb27f663001c5f8957e91c5",
+      "title": "GoogleのAI「Gemini」は個人のGoogleドライブ内のファイルやGmailを人間のレビュー担当者が見ることができるようにしている可能性がある",
+      "link": "https://gigazine.net/news/20261111-gemini-drive/",
+      "pubDate": "2026-11-11T10:31:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "続きを読む..."
+    },
+    {
+      "id": "e9a2548bef508b441a99373159816d2248c8ea7f",
+      "title": "ついにAIがあなたのフォトショを直接いじる。Adobe、主要アプリのMCP対応を予告",
+      "link": "https://www.gizmodo.jp/article/2611-adobe-max-2026-mcp-ai-agent/",
+      "pubDate": "2026-11-11T10:30:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Gizmodo Japan",
+      "feedUrl": "https://www.gizmodo.jp/",
+      "contentSnippet": "Adobe MAX 2026で発表された主力アプリのMCP対応とAIエージェントによる直接編集機能について解説します。"
+    },
+    {
+      "id": "f836fb639f2765b9849c70a049ca7ad325b66d84",
+      "title": "脳は感情を「六角形の地図」で整理している可能性",
+      "link": "https://nazology.kusuguru.co.jp/archives/206391",
+      "pubDate": "2026-11-11T10:30:00.000Z",
+      "category": "大学・学会・研究",
+      "feedTitle": "Nazology",
+      "feedUrl": "https://nazology.net/",
+      "contentSnippet": "うれしさや怒り、悲しみや驚きなど、私たちの感情は一日のうちでもめまぐるしく入れ替わります。 自分でもうまく説明できない気持ちになることもあり、感情は人間のなかでも特につかみどころのない部分に思えます。 ところが心理学では、こうした感情にも意外なほど整った並び方があると、何十年も前から考えられてきました。 それなのに、その並びを脳がどんな形で覚えているのかは、よく分かっていませんでした。 そこで米国の研究チームは、脳が空間の中で自分の居場所をつかむときの仕組みに目をつけました。 感情の整理にも、同じ仕組みが使われているのでしょうか？ 研究の詳細は、米エモリー大学らにより、2026年11月2日付で…"
+    },
+    {
+      "id": "04d743bf0a96280bf336530b81a53ca87793e097",
+      "title": "アニメ『呪術廻戦』制作のMAPPA、サイバーエージェントと業務提携",
+      "link": "https://kai-you.net/article/97124",
+      "pubDate": "2026-11-11T10:02:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "KAI-YOU.net",
+      "feedUrl": "https://kai-you.net/",
+      "contentSnippet": "アニメーション制作会社のMAPPAとサイバーエージェントが11月11日（木）、業務提携契約を締結したと発表した。あわせて、サイバーエージェントはMAPPAの親会社である株式会社MHDの株式の一部を取得している。両社は今回の提携を通じて、アニメの企画／制作から放送／配信、ゲーム化やグッズ、イベントまで幅広い領域での連携を検討。作品の海外展開や、ファンが作品を長く楽しめる環境づくりを目指す。なお、MAPPAの経営体制に変更はなく、引き続き独立したアニメーションスタジオとして活動する。MAPPAのアニ..."
+    },
+    {
+      "id": "b62eb311c788592b15242290149afca82bb526d8",
+      "title": "1600年前のナスカの赤ちゃんは単眼症、分析で染色体異常も判明",
+      "link": "https://nazology.kusuguru.co.jp/archives/206997",
+      "pubDate": "2026-11-11T10:00:44.000Z",
+      "category": "大学・学会・研究",
+      "feedTitle": "Nazology",
+      "feedUrl": "https://nazology.net/",
+      "contentSnippet": "ペルーのペルー・カトリカ大学（Pontificia Universidad Católica del Perú）などの研究チームが、およそ1600〜1700年前のナスカ文化の墓で土器に納められていた赤ちゃんの骨とDNAを調べました。 骨には顔の中央に目のくぼみが1つしかない単眼症の特徴があり、DNAからは、ふつう2本の13番染色体が3本あることが確認されました。 それでも、遺跡に残る形を見る限り、その子はほかの子どもと区別できない墓に葬られていました。 頭の骨では、鼻の骨や目のくぼみの内側の壁も欠け、目から脳へ神経が通る穴まで1つになっていました。 これほど際立った体の子なら、墓に特別な品が添…"
+    },
+    {
+      "id": "83d7b79f8b6b1f0591ff5f3065be19a4f05254f6",
+      "title": "「Happy Hacking Keyboard(HHKB)」シリーズ30周年記念の60％キーボード「HHKB Professional Elite」はどんな打ち心地なのか？実際にタイピングしてみた",
+      "link": "https://gigazine.net/news/20261111-hhkb-professional-elite-usage/",
+      "pubDate": "2026-11-11T10:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "続きを読む..."
+    },
+    {
+      "id": "9b7761e2fe364b8546916605fcde680553f5ef87",
+      "title": "Google Chromeを開きっぱなしの人は要注意。またもやセキュリティパッチが配信されました",
+      "link": "https://www.gizmodo.jp/article/chrome-security-patch-nov-2026/",
+      "pubDate": "2026-11-11T10:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Gizmodo Japan",
+      "feedUrl": "https://www.gizmodo.jp/",
+      "contentSnippet": "Googleが公開したChromeのセキュリティ更新と脆弱性について解説します。すでに悪用が確認されているため、ブラウザを再起動して最新の状態にアップデートしましょう。"
+    },
+    {
+      "id": "ca968eb9d2ab4e03d1ee3b9139e55a6f6173d35d",
+      "title": "2026年11月11日のヘッドラインニュース",
+      "link": "https://gigazine.net/news/20261111-headline/",
+      "pubDate": "2026-11-11T09:45:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "続きを読む..."
+    },
+    {
+      "id": "998958b7c9a9bc80a0e290d10b63a872fce6f6ba",
+      "title": "公取委がアマゾンジャパンの確約計画を認定、「おすすめ出品」の資格判定で出品者に価格引き下げを迫った疑い",
+      "link": "https://www.techno-edge.net/article/2026/11/11/5704.html",
+      "pubDate": "2026-11-11T09:43:55.000Z",
+      "category": "ITニュース",
+      "feedTitle": "techno-edge",
+      "feedUrl": "https://www.techno-edge.net/",
+      "contentSnippet": "公正取引委員会は2026年11月11日、アマゾンジャパン合同会社から申請のあった確約計画を認定したと発表しました。Amazon.co.jpの「おすすめ出品」の資格判定を通じて、出品者に販売価格を引き下げさせていた疑いがあるとして、独占禁止法に基づく審査を進めていた件です。"
+    },
+    {
+      "id": "61e6abe08801f9a6c55846a0138da24ebc541ed7",
+      "title": "VRChat向け決済サービス「VThanks」β版公開　クリエイターへの投げ銭やチケット販売に対応",
+      "link": "https://kai-you.net/article/97122",
+      "pubDate": "2026-11-11T09:33:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "KAI-YOU.net",
+      "feedUrl": "https://kai-you.net/",
+      "contentSnippet": "株式会社Vが、ソーシャルVRプラットフォーム・VRChat向けのギフト／投げ銭サービス「VThanks（ブイサンクス）」のβ版を公開した。VRChatで出会ったフレンドへのギフトや、クリエイター、パフォーマーなどへの金銭的な支援を行えるサービス。正式サービスは2026年秋に開始する予定だ。VRChat内でフレンドにギフト、クリエイターに投げ銭「VThanks」は、VRChat内でユーザー同士がギフトや投げ銭を贈り合えるサービス。誕生日を迎えたフレンドなどにプレゼントを贈る「ギフト」と、クリエイタ..."
+    },
+    {
+      "id": "ac9db626d0024917e798c99eeac4c9bae46ca42b",
+      "title": "Starlinkがバッテリー搭載でどこでもインターネットに接続可能な携帯型アンテナ「Mini 2」を発表",
+      "link": "https://gigazine.net/news/20261111-starlink-mini-2/",
+      "pubDate": "2026-11-11T09:18:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "続きを読む..."
+    },
+    {
+      "id": "3ab0a816eb2b5679c1cf0161bb0182b6f27e8616",
+      "title": "にじさんじ「VOLTACTION」初のフルアルバムがゴールドディスク認定　初週売上は10万枚超",
+      "link": "https://kai-you.net/article/97123",
+      "pubDate": "2026-11-11T09:11:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "KAI-YOU.net",
+      "feedUrl": "https://kai-you.net/",
+      "contentSnippet": "にじさんじ所属の4人組ユニット・VOLTACTIONの1stフルアルバム『EVOLVE』が、日本レコード協会による2026年10月度のゴールドディスク認定で「ゴールド」に認定された。ゴールドディスク認定は、CDなどの発売日からの累計正味出荷枚数に基づいて認定される制度。ゴールドは10万枚以上の作品が対象となる。VOLTACTION初のフルアルバム『EVOLVE』初週売上10万枚を突破VOLTACTIONは風楽奏斗さん、渡会雲雀さん、四季凪アキラさん、セラフ・ダズルガーデンさんの4人からなるダンス..."
+    },
+    {
+      "id": "3ad30700ee30ea5ba06e1da241c0ecfa1d84b6d3",
+      "title": "Google製高性能AI「Gemini 4 Carbon」が一般公開される、複数のAIが協力する新機能で3Dゲームを制作するデモも披露",
+      "link": "https://gigazine.net/news/20261111-gemini-4-carbon/",
+      "pubDate": "2026-11-11T09:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "続きを読む..."
+    },
+    {
+      "id": "1e8b0d5820f9f0b730a3b7b6417eb9f0eb14edd0",
+      "title": "乾燥が気になる冬に。デロンギのオイルヒーターが15％オフ【Amazonセール】",
+      "link": "https://www.gizmodo.jp/article/2611-delonghi-oil-heater-amazon-sale/",
+      "pubDate": "2026-11-11T09:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "Gizmodo Japan",
+      "feedUrl": "https://www.gizmodo.jp/",
+      "contentSnippet": "Amazonスマイルセールでデロンギのオイルヒーターが15％オフの特価に。温風を出さず乾燥知らずでジワジワ暖かい、クリーンな暖房器具をお得に始めるチャンスです。"
+    },
+    {
+      "id": "9cf6e6235c07bfe4af259ef211fe3d5f5a377aef",
+      "title": "推したい気持ちを爆発させろ！VRChatアイドル「Riso.（りそ）」活動3周年を迎えた新たな挑戦1st Solo Live 「扉の向こうへ」11月29日　東京都渋谷にてリアル開催決定！【寄稿】",
+      "link": "https://vr-lifemagazine.com/riso_live_20261129/?utm_source=rss&utm_medium=rss&utm_campaign=riso_live_20261129",
+      "pubDate": "2026-11-11T09:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "バーチャルライフマガジン",
+      "feedUrl": "https://vr-lifemagazine.com/",
+      "contentSnippet": "VRChatアイドルとして活動する”Riso.（りそ）”は、活動3周年を迎え、新たな挑戦として、初のソロライブ「扉の向こうへ」を2026年11月29日に開催いたします。 場所は東京都渋谷のライブハウス！VRChatライブ... 推したい気持ちを爆発させろ！VRChatアイドル「Riso.（りそ）」活動3周年を迎えた新たな挑戦1st Solo Live 「扉の向こうへ」11月29日 東京都渋谷にてリアル開催決定！【寄稿】 first appeared on バーチャルライフマガジン."
+    },
+    {
+      "id": "7943d701484a325d7fcf7e19e7526bf1b8255e94",
+      "title": "光の届かない深さ1700mの貝の細胞が「24時間のリズム」を刻んでいたと判明",
+      "link": "https://nazology.kusuguru.co.jp/archives/206249",
+      "pubDate": "2026-11-11T09:00:00.000Z",
+      "category": "大学・学会・研究",
+      "feedTitle": "Nazology",
+      "feedUrl": "https://nazology.net/",
+      "contentSnippet": "大西洋の深海底には、海底から熱い水が噴き出す「熱水噴出孔」のそばで暮らす二枚貝がいます。 学名をバシモディオルス・アゾリクスという、深海の貝です。 今回調べた貝の住みかは水深約1700mで、太陽の光はまったく届かず、昼も夜もありません。 それでもこの場所には、規則正しく繰り返す変化が1つあります。 潮の満ち引きです。 噴き出す水の流れる向きが、潮に合わせて変わるのです。 そのため貝のまわりは、酸素の多い海水と、酸素がなく金属を多く含む噴出水とに、交互に包まれます。 実際、海底でのこの貝は、行動も遺伝子の働きも、約12.4時間ごとの潮のリズムが中心でした。 ところがそこには、1日周期の変化が知ら…"
+    },
+    {
+      "id": "6cddd9c98e8471d340f3916cee795faa8a8124b2",
+      "title": "Claude内でAdobe製品やNotionなどを直接操作可能に、AIと一緒に写真編集や文書作成ができる新機能が登場",
+      "link": "https://gigazine.net/news/20261111-claude-interactive-connectors-full-tool/",
+      "pubDate": "2026-11-11T08:50:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "続きを読む..."
+    },
+    {
+      "id": "282816e905ca601815d1d9a8a691e6796a141842",
+      "title": "Microsoft幹部が開発したGPU用タスクマネージャー「gputaskman」、Windows・macOS・Linux対応で各タスクのGPU使用率やVRAM使用量をhtopっぽく監視できる",
+      "link": "https://gigazine.net/news/20261111-gputaskman/",
+      "pubDate": "2026-11-11T08:35:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "スコット・ハンゼルマン氏が開発したGPUタスクマネージャーで、GPUの使用状況を詳しく監視できます。便利そうだったので使ってみました。 続きを読む..."
+    },
+    {
+      "id": "be264288d0c828532d14bdf18be2e9ca6830e71f",
+      "title": "Ruby サーバーのゼロダウンタイムデプロイを Docker なしで実現する（翻訳）",
+      "link": "https://techracho.bpsinc.jp/hachi8833/2026_11_11/159612",
+      "pubDate": "2026-11-11T08:30:35.000Z",
+      "category": "ブログ",
+      "feedTitle": "TechRacho",
+      "feedUrl": "https://techracho.bpsinc.jp/",
+      "contentSnippet": "概要 元サイトの許諾を得て翻訳・公開いたします。 英語記事: Binary Solo | Zero-downtime Ruby deployment without Docker 原文公開日: 2026年07月31日 原著者: Ayush Newatia RubyサーバーのゼロダウンタイムデプロイをDockerなしで実現する（翻訳） シリーズ最終回は、パート2aで行ったセットアップを元に、自分のコンピュータからサーバーにデプロイする作業で完結させます。 パート2aではRubyアプリを配信するためのセットアップを扱いましたが、そのRubyアプリはサーバー自身の上で作成されたものでした。コードをデ…"
+    },
+    {
+      "id": "96443b0fdd4f5dc78324f268e43b4cf43418a414",
+      "title": "制作費790億円の大作インド映画『ラーマーヤナ』とは？ 『ゴジラ-0.0』とともに世界で大ヒット中",
+      "link": "https://kai-you.net/article/97107",
+      "pubDate": "2026-11-11T08:18:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "KAI-YOU.net",
+      "feedUrl": "https://kai-you.net/",
+      "contentSnippet": "国内ではもちろん、海外でも公開3日間で興行収入約50億円を達成するなど大ヒットを記録している映画『ゴジラ-0.0』。そうした中インドの神話をもとに制作された大作映画『ラーマーヤナ：ライズ・オブ・レジェンド（Ramayana: Rise of a Legend）』が、11月5日にインドやアメリカで公開された。米メディア「DEADLINE」によると、本作は公開初週の週末に興行収入5500万ドル（約87億円）を達成（外部リンク）。同週に公開された『ゴジラ-0.0』の6300万ドル（約100億円）には及..."
+    },
+    {
+      "id": "003eae08cdcf994b5e41d50da1ff5e7bf17931e1",
+      "title": "NVIDIA Agentic AI Day Japan 2026でオープンモデル活用と安全対策・人材育成を議論、チームみらい安野氏からビデオメッセージも",
+      "link": "https://robotstart.info/article/2026/11/11/382621.html",
+      "pubDate": "2026-11-11T08:10:03.000Z",
+      "category": "ITニュース",
+      "feedTitle": "robotstart.info",
+      "feedUrl": "https://robotstart.info/",
+      "contentSnippet": "エヌビディア合同会社は2026年11月10日、ザ・プリンスパークタワー東京で「Agentic AI Day Japan 2026」を開催した。"
+    },
+    {
+      "id": "7f929dfd99fb268dfe0a3b971f376c55132e63bc",
+      "title": "ペニシリンを作る酵素が「材料の握り直し」をしている姿が捉えられた",
+      "link": "https://nazology.kusuguru.co.jp/archives/206971",
+      "pubDate": "2026-11-11T08:00:52.000Z",
+      "category": "大学・学会・研究",
+      "feedTitle": "Nazology",
+      "feedUrl": "https://nazology.net/",
+      "contentSnippet": "イギリスのオックスフォード大学で行われた研究によって、ペニシリン類の骨組みを作る酵素の中で、中心の鉄がつかんでいた材料をいったん手放し、四角い輪ができたところで握り直す、持ち替えのような動きをしていたことが示されました。 研究チームは、酸素を当ててからの時間を変えながら、ごく短く光る強力なX線で酵素を写し、大学の発表が「分子の動画」と呼ぶコマ送りに並べました。 材料の硫黄が途中で鉄から離れていたことは、論文自身が「予想外」と書いている発見です。 握り直したときの材料は、四角い輪が1つだけできて、五角形の輪はまだ閉じていない途中の姿でした。 いったいなぜ、酵素の中で材料はいったん手放され、また握…"
+    },
+    {
+      "id": "70571c900f1e7ca93612ab782659b59430dd5925",
+      "title": "玉川大学工学部が「テクノフェスタ」を開催　話題のフィジカルAIやヒューマノイドロボットの実演に来場者から驚きの声",
+      "link": "https://univ-journal.jp/1003079/",
+      "pubDate": "2026-11-11T08:00:43.000Z",
+      "category": "大学・学会・研究",
+      "feedTitle": "大学ジャーナルオンライン",
+      "feedUrl": "https://univ-journal.jp/",
+      "contentSnippet": "2026年11月7日（土）・8日（日）に行われた玉川大学学園祭「コスモス祭」に合わせて、玉川大学工学部は、工学部の研究や学びを実演・体験・展示を通じて広く紹介する「テクノフェスタ」を開催した。今話題のフィジカルAIなど、社会的に関心の高い最前線の技術を楽しみながら学べる場として、子どもから大人まで幅広い世代が来場する賑やかなイベントとなった。 11月7日（土）に開催された特別講義では、株式会社アールティ代表取締役の中川友紀子氏が登壇し、「最新フィジカルAIの基礎と技術動向～人型ロボット・VLAが拓く産業変革～」をテーマに講演した。中川氏は長年ロボットの研究開発を行っており、生活支援サービスロボ…"
+    },
+    {
+      "id": "9144233351ea83be72b0f10bc1d75a6acf74e400",
+      "title": "バチャマガライターに飛行機を作らせたら、発想がバラバラすぎた。最も優れた飛行機を作ったのは誰だ？！【PR】",
+      "link": "https://vr-lifemagazine.com/patchwork-aerospace/?utm_source=rss&utm_medium=rss&utm_campaign=patchwork-aerospace",
+      "pubDate": "2026-11-11T08:00:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "バーチャルライフマガジン",
+      "feedUrl": "https://vr-lifemagazine.com/",
+      "contentSnippet": "突然ですが、皆さんは、飛行機を作ったことがありますか？ 私はありません。飛行機というものは、専門的な知識を持った人たちが、長い年月をかけて設計し、さまざまな技術を結集させて完成させるものだと思っていました。 しかし、バー... バチャマガライターに飛行機を作らせたら、発想がバラバラすぎた。最も優れた飛行機を作ったのは誰だ？！【PR】 first appeared on バーチャルライフマガジン."
+    },
+    {
+      "id": "119c9669bf28a28365a649dc6dac1c81c7cd18a5",
+      "title": "ジェンスン・フアンCEOと不倫したアリス・フアンとは何者なのか？",
+      "link": "https://gigazine.net/news/20261111-who-is-alice-huang/",
+      "pubDate": "2026-11-11T07:40:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "認めました。この女性はMegaspeedというシンガポール企業の幹部で、その立場を利用して中国にアメリカ製品を出荷していた疑いが持たれています。この女性は一体何者なのか、経済紙のFinancial Timesなどがまとめています。 続きを読む..."
+    },
+    {
+      "id": "d2955fc602da6417cc5aa31f6a3ffc3ef7f654f1",
+      "title": "群馬在住VTuberユニットPeaky Hikers、ぐんま特使に就任　農業や演劇も行う異色の2人組",
+      "link": "https://kai-you.net/article/97119",
+      "pubDate": "2026-11-11T07:38:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "KAI-YOU.net",
+      "feedUrl": "https://kai-you.net/",
+      "contentSnippet": "群馬県在住のVTuberユニット・Peaky Hikers（ピーキーハイカーズ）が、群馬県の魅力を広く発信する「ぐんま特使」に就任した。ぐんま特使とは、群馬県にゆかりがあり、かつメディアへの出演やイベント／講演／SNSなどを通じて情報発信できる人に、県の観光や物産などの発信を依頼する制度。VTuberがぐんま特使に就任するのは初。11月13日（金）にはぐんま特使の委嘱式が実施される。新米販売など群馬の魅力を伝えてきた異色の農業VTuber・Peaky HikersPeaky Hikersは、メイ..."
+    },
+    {
+      "id": "a3fc9abc6dfd07d109d4efbd767c0407c8baf95d",
+      "title": "NTTドコモ、「睡眠の質推定AI」の提供を開始。スマホの利用状況を分析して改善策まで提案",
+      "link": "https://aismiley.co.jp/ai_news/docomo-sleep-quality-ai/",
+      "pubDate": "2026-11-11T07:34:24.000Z",
+      "category": "AI",
+      "feedTitle": "AIニュース | AIポータルメディアAIsmiley",
+      "feedUrl": "https://aismiley.co.jp/",
+      "contentSnippet": "NTTドコモは、スマホの画面操作や位置情報などから、利用者の睡眠の質を推定する「睡眠の質推定AI」の提供を開始しました。専用機器を準備することなく、普段どおりにスマホを利用するだけで睡眠の質を把握できます。 このニュース […] The post NTTドコモ、「睡眠の質推定AI」の提供を開始。スマホの利用状況を分析して改善策まで提案 first appeared on AIポータルメディアAIsmiley."
+    },
+    {
+      "id": "2e4db51b438a8d22ecec216ef9204f40e7f76879",
+      "title": "VTuber天神子兎音、新たな“中の人”で活動再開　前任者の卒業報告に物議もIPを継承",
+      "link": "https://kai-you.net/article/97121",
+      "pubDate": "2026-11-11T07:27:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "KAI-YOU.net",
+      "feedUrl": "https://kai-you.net/",
+      "contentSnippet": "VTuber／バーチャルアーティストの天神子兎音さんが11月11日（水）、新たに声と表現を担当する“依代（よりしろ）”を迎え、活動を再開した。“依代”とは、天神子兎音さんのキャラクター設定に合わせた独自の呼称で、声や表現を担う演者＝いわゆるVTuberの“中の人”にあたる。これまで“依代”で展開されてきたオリジナル楽曲や配信アーカイブは今後も残されるという。11月11日（水）21時からは、新たな“依代”による自己紹介や今後の活動について語る記念生配信が、公式YouTubeチャンネルで行われる。天..."
+    },
+    {
+      "id": "e3b2a17d2c96745eb745cb2f50d1f134ba4588e1",
+      "title": "Google DeepMindがAIでコードを検証する「AlphaProof Code」を使ってSignalプロトコルの安全性の形式的検証に成功",
+      "link": "https://gigazine.net/news/20261111-google-deepmind-alphaproof-code-verification/",
+      "pubDate": "2026-11-11T07:05:00.000Z",
+      "category": "ITニュース",
+      "feedTitle": "GIGAZINE",
+      "feedUrl": "http://gigazine.net/",
+      "contentSnippet": "Signalプロトコル」が十分なセキュリティ保護機能を備えていることを数学的に証明することに成功しています。 続きを読む..."
+    },
+    {
+      "id": "3d963477a9f974f6702bac52a08e3c17592ae14b",
+      "title": "数学で証明、トランプで「5枚のうち4枚をみて残りを当てる」手品に邪魔が入るとどうなるか？",
+      "link": "https://nazology.kusuguru.co.jp/archives/206946",
+      "pubDate": "2026-11-11T07:00:09.000Z",
+      "category": "大学・学会・研究",
+      "feedTitle": "Nazology",
+      "feedUrl": "https://nazology.net/",
+      "contentSnippet": "アメリカのメリーランド大学カレッジパーク校（UMD）などで行われた研究によって、並び順で隠したカードを伝える5枚カード手品を、観客に隣の2枚を入れ替えられても当てられる「邪魔に強い手品」にすると、使えるカードは29枚が限界だと数学的に証明されました。 普通の52枚では、どんな方法を使っても、すべての手札で当てられるとは保証できません。 邪魔が無ければ、普通のトランプ一組はこの手品にとって余裕たっぷりの大きさです。 ところが、並びをほんの1か所いじられる可能性があるだけで、その余裕は消えてしまいます。 入れ替えてよいのが「どの2枚でも」となると、限界は29枚のさらに半分ほどまで下がります。 いっ…"
+    },
+    {
+      "id": "e6af5a5a1d382319ca890c4ad2d7cc203f84d9f7",
+      "title": "NTTがロボットの失敗を回避するフィジカルAI技術を開発 行動前に荷崩れや落下を予測",
+      "link": "https://robotstart.info/article/2026/11/11/382620.html",
+      "pubDate": "2026-11-11T06:35:02.000Z",
+      "category": "ITニュース",
+      "feedTitle": "robotstart.info",
+      "feedUrl": "https://robotstart.info/",
+      "contentSnippet": "NTTは、ロボットが実際に行動する前に、複数の行動候補について荷崩れや落下などの結果を予測・評価し、成功につながる行動を選択できる技術を実現した。"
+    },
     {
       "id": "707080d9a2f8ad88533b15af042a3f7d9dd054d7",
       "title": "This Coffee Machine is DOOMed",
@@ -392,7 +2003,7 @@
       "id": "5eb8773ebca8c181207f165bf91f4b6a22363c84",
       "title": "「Mリーグ」岡田紗佳が12戦8トップの絶好調　1着率66.7％で全選手トップに",
       "link": "https://kai-you.net/article/97118",
-      "pubDate": "2026-11-11T05:18:00.000Z",
+      "pubDate": "2026-11-11T05:19:00.000Z",
       "category": "ITニュース",
       "feedTitle": "KAI-YOU.net",
       "feedUrl": "https://kai-you.net/",
@@ -610,7 +2221,7 @@
     },
     {
       "id": "271bd469ae086addf838ee922f9b344c0397f264",
-      "title": "Google版AirTag『Pixel Tag』発売、10億台のAndroid端末で探す紛失防止トラッカー　UWBと新技術『Bluetooth CS』採用",
+      "title": "訂正：Google版AirTag『Pixel Tag』発売、10億台のAndroid端末で探す紛失防止トラッカー　UWBと新技術『Bluetooth CS』採用",
       "link": "https://www.techno-edge.net/article/2026/11/11/5701.html",
       "pubDate": "2026-11-11T03:02:27.000Z",
       "category": "ITニュース",
@@ -640,7 +2251,7 @@
     },
     {
       "id": "eedc6bdaf45ac16206d99fbf5f65c8a6b2a990cf",
-      "title": "更新：ドコモの5G SAでまた通信障害、11月11日10時34分から全国で",
+      "title": "復旧：ドコモの5G SAでまた通信障害、11月11日10時34分から全国で",
       "link": "https://www.techno-edge.net/article/2026/11/11/5700.html",
       "pubDate": "2026-11-11T02:59:48.000Z",
       "category": "ITニュース",
@@ -1127,16 +2738,6 @@
       "feedTitle": "Adafruit Industries",
       "feedUrl": "https://blog.adafruit.com/",
       "contentSnippet": "Amir Shoam has a history of the Iomega Zip drive at TechSpot, the 100MB removable disk that carried big files around in the years before USB flash drives and broadband. Iomega started in 1980 in Roy, Utah, with the Bernoulli Box for professionals, but by the early 1990s that line was fading. New CEO…"
-    },
-    {
-      "id": "c8504ced09e94cd46080a0177590d4525843e208",
-      "title": "We Now Know What Amazon Has in Store for Black Friday and Cyber Monday 2026",
-      "link": "https://lifehacker.com/tech/amazon-black-friday-cyber-monday-faq-2026?utm_medium=RSS",
-      "pubDate": "2026-11-10T19:30:00.000Z",
-      "category": "ITニュース",
-      "feedTitle": "Lifehacker",
-      "feedUrl": "http://lifehacker.com/",
-      "contentSnippet": "Here's what to expect for Black Friday and Cyber Monday."
     },
     {
       "id": "d60e3d6d9d542f2f6c16a9c0077ecd7175969d7c",
@@ -3227,16 +4828,6 @@
       "feedTitle": "inajobのいろいろレビュー",
       "feedUrl": "https://inajob.github.io/iroiro-review/",
       "contentSnippet": "Using Vibration To Make Stuff Stick Contact-Free To Ceilingsから発見。画像もここから転載。 マイクロ振動接着というのは、微細な振動によって物体の間に局所的な低圧領域や流体力学的効果を生み出し、物理的な接触なしに天井などに物を吸着させる技術です。 この記事では、振動モーターを取り付けた柔軟な素材のカードなどが重力に逆らって天井に張り付く現象について紹介しています。振動によって生じる進行波が隙間の空気を押し出すことで負圧を生み出す仕組みや、半導体製造でのウェハ搬送や壁面移動ロボットへの応用について解説されています。 微小振動による吸着メカ…"
-    },
-    {
-      "id": "55581675745562456cec1bf25f687c54a985538b",
-      "title": "What to Expect From Best Buy's Black Friday and Cyber Monday Sales This Year",
-      "link": "https://lifehacker.com/tech/best-buy-sale-black-friday-2026?utm_medium=RSS",
-      "pubDate": "2026-11-05T22:31:19.000Z",
-      "category": "ITニュース",
-      "feedTitle": "Lifehacker",
-      "feedUrl": "http://lifehacker.com/",
-      "contentSnippet": "Best Buy has sales going all the way to Christmas."
     },
     {
       "id": "afaf44e64590a5bc61a04ad7404f54662795d660",
@@ -5339,16 +6930,6 @@
       "contentSnippet": "AIに3Dゲームなどを作ってもらうと、もこもこした木を配置しがちです。 これを、こんな感じでリアルな木にするスキルを作ってみました。 ここからダウンロードして.claude/skillsなどにつっこめば、木を生成するときに使ってくれます。 https://kishida.github.io/webdemos/skills/procedural-lowpoly-trees.zip スキルのつくりかただけどまず「ゲーム用に、ポリゴン数を節約しつつリアルな木を生成するアルゴリズムと、そのuiをhtmlで作って」としてツールを作ってもらいます。 で、これを使ってゲームを作ってもらいます。 最後に「この…"
     },
     {
-      "id": "7512582143e11b79f122918c83d8a72608f9784e",
-      "title": "AIが思考を代行する時代に人間が「知識を繋ぐ」固有の価値とは何なのか？",
-      "link": "https://forza.cocolog-nifty.com/blog/2026/10/post-678d4d.html",
-      "pubDate": "2026-10-12T12:43:57.000Z",
-      "category": "ブログ",
-      "feedTitle": "プログラマの思索",
-      "feedUrl": "https://forza.cocolog-nifty.com/blog/",
-      "contentSnippet": ""
-    },
-    {
       "id": "e78198abe3fa86adfee907e4581061b5cf832dd7",
       "title": "VRヘッドセットに取り付けて脳波を読み取り、アプリを操作。「PiEEG XR」のプロトタイプ版を試す",
       "link": "https://www.moguravr.com/pieeg-xr-review/",
@@ -5447,6 +7028,106 @@
       "feedTitle": "Mogura VR",
       "feedUrl": "https://www.moguravr.com/",
       "contentSnippet": "Mogura VRが企画・運営する大規模カンファレンス「XR Kaigi」について、お知らせです。 2026年11月30日（月）から12月2日（水）までの3日間、東京ポートシティ竹芝で「XR Kaigi 2026」が開催 […] The post 【XR Kaigi 2026】注目セッション7選、スマートグラス、VRChat、アイドルのVR配信まで appeared first on Mogura VR."
+    },
+    {
+      "id": "3e43b90528ff472c6d5fb82d577988fec8c0a48a",
+      "title": "【XR Kaigi 2026】VRChatや触覚デバイス、裸眼立体ディスプレイまで、バーチャルエンタメ領域の注目展示ピックアップ",
+      "link": "https://www.moguravr.com/xrkaigi2026-expo-pickup-virtual-entertainment/",
+      "pubDate": null,
+      "category": "ITニュース",
+      "feedTitle": "Mogura VR",
+      "feedUrl": "https://www.moguravr.com/",
+      "contentSnippet": "Mogura VRが企画・運営する大規模カンファレンス「XR Kaigi」について、お知らせです。 “バーチャル”がテーマの国内最大級カンファレンス「XR Kaigi 2026」が、2026年11月30日（月）から12月 […] The post 【XR Kaigi 2026】VRChatや触覚デバイス、裸眼立体ディスプレイまで、バーチャルエンタメ領域の注目展示ピックアップ appeared first on Mogura VR."
+    },
+    {
+      "id": "c79d66588486e5c3202e7112799394810318ff21",
+      "title": "カバー、Q2営業利益74%増 「hololive Dreams」がライセンス収益を押し上げ",
+      "link": "https://www.moguravr.com/cover-fy2027-q2-earnings/",
+      "pubDate": null,
+      "category": "ITニュース",
+      "feedTitle": "Mogura VR",
+      "feedUrl": "https://www.moguravr.com/",
+      "contentSnippet": "11月11日、カバー株式会社は2027年3月期第2四半期の決算説明資料を公開しました。同四半期の売上高は121億5,500万円で、前年同期比0.3%の増収です。営業利益は29億4,600万円（同74.0%増）、純利益は2 […] The post カバー、Q2営業利益74%増 「hololive Dreams」がライセンス収益を押し上げ appeared first on Mogura VR."
+    },
+    {
+      "id": "593540e754064abfa7cb08ee6b8a649ff2f46f8b",
+      "title": "ピーキーハイカーズ、VTuber初の「ぐんま特使」に就任決定",
+      "link": "https://www.moguravr.com/peaky-hikers-gunma-tokushi/",
+      "pubDate": null,
+      "category": "ITニュース",
+      "feedTitle": "Mogura VR",
+      "feedUrl": "https://www.moguravr.com/",
+      "contentSnippet": "11月13日、夫婦VTuberユニット「ピーキーハイカーズ」の2人が、群馬県の「ぐんま特使」に委嘱されます。ぐんま特使は、群馬県にゆかりがあり情報発信を行える人に、県の観光や物産などの魅力発信を依頼する制度です。VTub […] The post ピーキーハイカーズ、VTuber初の「ぐんま特使」に就任決定 appeared first on Mogura VR."
+    },
+    {
+      "id": "62f0a5a0f27c0d98832d4db8e79e7ba58595ccf9",
+      "title": "Blender 5.3公開、ガウシアン・スプラッティングにネイティブ対応",
+      "link": "https://www.moguravr.com/blender-5-3-gaussian-splatting/",
+      "pubDate": null,
+      "category": "ITニュース",
+      "feedTitle": "Mogura VR",
+      "feedUrl": "https://www.moguravr.com/",
+      "contentSnippet": "11月10日（現地時間）、Blender Foundationは3DCGソフト「Blender 5.3」を公開しました。主な新機能の1つが、3Dガウシアン・スプラッティングへのネイティブ対応です。 ガウシアン・スプラッテ […] The post Blender 5.3公開、ガウシアン・スプラッティングにネイティブ対応 appeared first on Mogura VR."
+    },
+    {
+      "id": "98bc394f092fbdad64080eb8432f0c49995ae857",
+      "title": "Disney+、Meta Questで3D映画の提供を開始",
+      "link": "https://www.moguravr.com/disney-plus-meta-quest-3d/",
+      "pubDate": null,
+      "category": "ITニュース",
+      "feedTitle": "Mogura VR",
+      "feedUrl": "https://www.moguravr.com/",
+      "contentSnippet": "映像配信プラットフォーム「Disney+」で、Meta Quest向けの3D映画の提供が開始されました。対象は一部の国です。3D作品に加えて、没入感のある視聴環境もあわせて用意されています。Meta VR Glasses […] The post Disney+、Meta Questで3D映画の提供を開始 appeared first on Mogura VR."
+    },
+    {
+      "id": "cec20ed9f08c2cbea6fe185241d9617442703904",
+      "title": "VTuber天神子兎音、新たな“依代”が11月11日に初配信へ",
+      "link": "https://www.moguravr.com/kotone-new-yorishiro-greeting-stream/",
+      "pubDate": null,
+      "category": "ITニュース",
+      "feedTitle": "Mogura VR",
+      "feedUrl": "https://www.moguravr.com/",
+      "contentSnippet": "11月11日、VTuberの天神子兎音さんの新たな“依代”による挨拶配信が行われます。開始は同日21時です。 本人のXアカウントでは、手書きの文書が公開されました。新しい依代となった天神子兎音として挨拶配信を行う、という […] The post VTuber天神子兎音、新たな“依代”が11月11日に初配信へ appeared first on Mogura VR."
+    },
+    {
+      "id": "ad30f5cba6425516eb893b50f6f4f5586acf0fd2",
+      "title": "Northwood Lab、トラッカー不要のフルトラ機器「Singularis」の予約受付を開始",
+      "link": "https://www.moguravr.com/northwood-lab-singularis-batch3/",
+      "pubDate": null,
+      "category": "ITニュース",
+      "feedTitle": "Mogura VR",
+      "feedUrl": "https://www.moguravr.com/",
+      "contentSnippet": "11月8日、Northwood LabがフルボディトラッキングシステムSingularisの第3次予約受付を開始しました。 Singularisは、身体にトラッカーを装着しないタイプのフルボディトラッキング機器です。スト […] The post Northwood Lab、トラッカー不要のフルトラ機器「Singularis」の予約受付を開始 appeared first on Mogura VR."
+    },
+    {
+      "id": "6016574590cf808c8b2295272132a347c6f04c70",
+      "title": "Even Realities、スマートグラスEven G2の法人向けSDKを発表",
+      "link": "https://www.moguravr.com/even-g2-enterprise-sdk/",
+      "pubDate": null,
+      "category": "ITニュース",
+      "feedTitle": "Mogura VR",
+      "feedUrl": "https://www.moguravr.com/",
+      "contentSnippet": "現地時間の11月10日、Even Realitiesはスマートグラス「Even G2」向けのEnterprise SDKを公開しました。法人向けパートナーシップの受付も開始しています。 SDKはFlutterと、iOS・ […] The post Even Realities、スマートグラスEven G2の法人向けSDKを発表 appeared first on Mogura VR."
+    },
+    {
+      "id": "e61e793b4b338e8a319933ae3f9fa651c915007a",
+      "title": "URLを貼るだけでVRChat内に写真を飾れるギミック「CatsUdon Image デコレーター」発売",
+      "link": "https://www.moguravr.com/catsudon-image-decorator/",
+      "pubDate": null,
+      "category": "ITニュース",
+      "feedTitle": "Mogura VR",
+      "feedUrl": "https://www.moguravr.com/",
+      "contentSnippet": "11月6日、VRChatのワールド向けギミック「CatsUdon Image デコレーター」の販売をBOOTHで開始しました。開発者はKinoPro氏。価格は1,760円です。 このギミックを使用すれば、VRChatでU […] The post URLを貼るだけでVRChat内に写真を飾れるギミック「CatsUdon Image デコレーター」発売 appeared first on Mogura VR."
+    },
+    {
+      "id": "e7c54f951656fd2fbf6d7162e33fdbf06e49a9d3",
+      "title": "スマートグラス「Even G2」ブラックフライデーキャンペーンを開催",
+      "link": "https://www.moguravr.com/even-realities-black-friday-2026/",
+      "pubDate": null,
+      "category": "ITニュース",
+      "feedTitle": "Mogura VR",
+      "feedUrl": "https://www.moguravr.com/",
+      "contentSnippet": "2026年11月13日、Even Realitiesがブラックフライデーキャンペーンを開始します。同社はカメラを搭載せず、ディスプレイを中心としたスマートグラスを開発しています。キャンペーンは2段構成で、第1弾は12月1 […] The post スマートグラス「Even G2」ブラックフライデーキャンペーンを開催 appeared first on Mogura VR."
     }
   ]
 }
