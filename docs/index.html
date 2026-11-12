@@ -66,10 +66,17 @@
     padding-left: 18px;
     color: var(--text-dim);
   }
+  #stickyBar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+  }
   nav#tabs {
     max-width: 760px;
     margin: 0 auto;
-    padding: 4px 16px;
+    padding: 8px 16px 4px;
     display: flex;
     gap: 6px;
     flex-wrap: wrap;
@@ -235,11 +242,13 @@
   </details>
 </header>
 
-<nav id="tabs"></nav>
+<div id="stickyBar">
+  <nav id="tabs"></nav>
 
-<div id="toolbar">
-  <label><input type="checkbox" id="unreadOnly" /> 未読のみ表示</label>
-  <button id="markAllRead" type="button">このカテゴリを全て既読にする</button>
+  <div id="toolbar">
+    <label><input type="checkbox" id="unreadOnly" /> 未読のみ表示</label>
+    <button id="markAllRead" type="button">このカテゴリを全て既読にする</button>
+  </div>
 </div>
 
 <main>
