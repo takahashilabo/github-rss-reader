@@ -130,12 +130,30 @@
     border-radius: 8px;
     padding: 9px 12px;
     margin-bottom: 6px;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
   }
   .article.is-read {
     background: var(--read-bg);
   }
   .article.is-read .title-link {
     color: var(--read-text);
+  }
+  .article.is-read .thumb {
+    opacity: 0.6;
+  }
+  .thumb {
+    width: 52px;
+    height: 52px;
+    border-radius: 6px;
+    object-fit: cover;
+    flex-shrink: 0;
+    background: var(--border);
+  }
+  .article-body {
+    flex: 1;
+    min-width: 0;
   }
   .feed-group {
     margin-bottom: 16px;
@@ -523,6 +541,24 @@
     card.className = "article" + (isRead ? " is-read" : "");
     card.dataset.id = article.id;
 
+    var safeImage = sanitizeUrl(article.image);
+    if (safeImage) {
+      var thumb = document.createElement("img");
+      thumb.className = "thumb";
+      thumb.src = safeImage;
+      thumb.alt = "";
+      thumb.loading = "lazy";
+      thumb.decoding = "async";
+      thumb.referrerPolicy = "no-referrer";
+      thumb.addEventListener("error", function () {
+        thumb.remove();
+      });
+      card.appendChild(thumb);
+    }
+
+    var body = document.createElement("div");
+    body.className = "article-body";
+
     var row = document.createElement("div");
     row.className = "article-row";
 
@@ -549,7 +585,8 @@
     dateSpan.textContent = article.pubDate ? formatDateTime(new Date(article.pubDate)) : "";
     row.appendChild(dateSpan);
 
-    card.appendChild(row);
+    body.appendChild(row);
+    card.appendChild(body);
 
     return card;
   }

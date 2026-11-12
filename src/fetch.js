@@ -19,7 +19,14 @@ const MAX_ARTICLES = 1000;
 const USER_AGENT =
   "github-rss-reader/1.0 (+https://github.com/; personal static feed reader)";
 
-const rssParser = new Parser();
+const rssParser = new Parser({
+  customFields: {
+    item: [
+      ["media:thumbnail", "mediaThumbnail"],
+      ["media:content", "mediaContent"],
+    ],
+  },
+});
 
 /** Parses feeds.opml into a flat list of { category, title, xmlUrl, htmlUrl }. */
 async function loadFeedList() {
@@ -115,7 +122,36 @@ function toArticle(item, feed) {
     feedTitle: feed.title,
     feedUrl: feed.htmlUrl,
     contentSnippet: makeSnippet(item.contentSnippet || item.content || ""),
+    image: extractImage(item),
   };
+}
+
+/** Pulls a representative image out of whatever the feed actually provides. */
+function extractImage(item) {
+  const candidates = [
+    item.mediaThumbnail?.$?.url,
+    item.mediaContent?.$?.medium === "image" || !item.mediaContent?.$?.medium
+      ? item.mediaContent?.$?.url
+      : null,
+    !item.enclosure?.type || item.enclosure.type.startsWith("image/") ? item.enclosure?.url : null,
+  ];
+
+  for (const url of candidates) {
+    if (isHttpUrl(url)) return url;
+  }
+
+  const html = item["content:encoded"] || item.content || "";
+  const match = html.match(/<img[^>]+src=["']([^"']+)["']/i);
+  return isHttpUrl(match?.[1]) ? match[1] : null;
+}
+
+function isHttpUrl(url) {
+  if (!url) return false;
+  try {
+    return ["http:", "https:"].includes(new URL(url).protocol);
+  } catch {
+    return false;
+  }
 }
 
 function makeSnippet(text, maxLength = 300) {
